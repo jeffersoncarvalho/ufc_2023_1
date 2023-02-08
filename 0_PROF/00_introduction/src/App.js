@@ -1,3 +1,16 @@
+import FunctionContextA from "./components/introduction/06_context/FunctionContextA";
+import ClassA from "./components/introduction/06_context/ClassContext";
+
+function App() {
+  return (
+    <>
+      <ClassA />
+    </>
+  )
+}
+
+export default App;
+
 //import HelloFunction from "./components/introduction/00_hello/HelloFunction";
 //import HelloClass from "./components/introduction/00_hello/HelloClass";
 //import Atividade00Function from "./components/introduction/00_hello/Atividade00";
@@ -20,11 +33,12 @@
   );
 }*/
 
+
 //import { Supermercado, Legume, Fruta, Bebida } from "./components/introduction/05_children/FunctionChildren";
 //import { Supermercado, Legume, Fruta, Bebida } from "./components/introduction/05_children/ClassChildren";
 //import { Supermercado, Legume, Fruta, Bebida } from "./components/introduction/05_children/ClassReactChildren_V1";
 //import { Supermercado, Legume, Fruta, Bebida } from "./components/introduction/05_children/ClassChildren_V2";
-import { Supermercado, Legume, Fruta, Bebida } from "./components/introduction/05_children/FunctionChildren_V2"
+/*import { Supermercado, Legume, Fruta, Bebida } from "./components/introduction/05_children/FunctionChildren_V2"
 
 function App() {
   return (
@@ -37,5 +51,4 @@ function App() {
     </>
 
   );
-}
-export default App;
+}*/
