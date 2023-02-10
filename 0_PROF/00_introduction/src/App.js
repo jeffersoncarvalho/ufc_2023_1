@@ -3,12 +3,13 @@
 //import SaveData from "./components/introduction/07_storage/FunctionLocalStorage";
 //import FunctionPai from "./components/introduction/08_pai_filho/FunctionPai";
 //import ClassContadorState from "./components/introduction/09_state_hook/ClassContadorState";
-import FunctionContadorHook from "./components/introduction/09_state_hook/FunctionContadorHook";
+//import FunctionContadorHook from "./components/introduction/09_state_hook/FunctionContadorHook";
+import FunctionAxios from "./components/introduction/10_axios/FunctionAxios";
 
 function App() {
   return (
     <>
-      <FunctionContadorHook />
+      <FunctionAxios />
     </>
   )
 }
