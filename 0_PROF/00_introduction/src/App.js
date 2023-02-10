@@ -1,10 +1,12 @@
-import FunctionContextA from "./components/introduction/06_context/FunctionContextA";
-import ClassA from "./components/introduction/06_context/ClassContext";
+//import FunctionContextA from "./components/introduction/06_context/FunctionContextA";
+//import ClassA from "./components/introduction/06_context/ClassContext";
+//import SaveData from "./components/introduction/07_storage/FunctionLocalStorage";
+import FunctionPai from "./components/introduction/08_pai_filho/FunctionPai";
 
 function App() {
   return (
     <>
-      <ClassA />
+      <FunctionPai />
     </>
   )
 }
