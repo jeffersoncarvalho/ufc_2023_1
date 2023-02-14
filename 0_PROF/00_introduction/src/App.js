@@ -5,12 +5,13 @@
 //import ClassContadorState from "./components/introduction/09_state_hook/ClassContadorState";
 //import FunctionContadorHook from "./components/introduction/09_state_hook/FunctionContadorHook";
 //import FunctionAxios from "./components/introduction/10_axios/FunctionAxios";
-import TelaPrincipal from "./components/02-redux/components/TelaPrincipal";
+//import TelaPrincipal from "./components/02-redux/components/TelaPrincipal";
+import MinhaPromise from "./components/03-promises-async/MinhaPromise";
 
 function App() {
   return (
     <>
-      <TelaPrincipal />
+      <MinhaPromise />
     </>
   )
 }
