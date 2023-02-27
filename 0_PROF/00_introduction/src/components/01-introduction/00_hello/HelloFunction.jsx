@@ -14,10 +14,15 @@ const hello_function_2 = () => {
     )
 }
 
-const hello_function_3 = () =>
-    <div>
-        <h1>Hello React Function 03</h1>
-    </div>
+const hello_function_3 = () => {
+    console.log("Teste")
+    return (
+        <div>
+            <h1>Hello React Function 03</h1>
+        </div>
+    )
+}
+
 
 
 //export default hello_function_1
