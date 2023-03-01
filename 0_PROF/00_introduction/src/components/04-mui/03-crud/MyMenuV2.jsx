@@ -1,14 +1,15 @@
 import React from "react";
 
-import { AppBar, Container, Toolbar, Typography, Box, Menu, MenuItem, Button, Tooltip } from "@mui/material"
+import { AppBar, Container, Toolbar, Typography, Box, Menu, MenuItem, Button, Tooltip, IconButton } from "@mui/material"
 import AdbIcon from "@mui/icons-material/Adb"
 
 const MyMenu = () => {
 
-
+     
     const [anchorElProf, setAnchorElProf] = React.useState(null);
     const [anchorElAluno, setAnchorElAluno] = React.useState(null);
 
+     
     const handleOpenProfMenu = (event) => {
         setAnchorElProf(event.currentTarget);
     };
@@ -21,7 +22,6 @@ const MyMenu = () => {
     const handleCloseAlunoMenu = () => {
         setAnchorElAluno(null);
     };
-
 
     function profDropMenu() {
         return (
@@ -42,7 +42,7 @@ const MyMenu = () => {
                     sx={{ marginLeft: 1 }}
                 >
                     <MenuItem onClick={
-                        ()=>{
+                        () => {
                             handleCloseProfMenu()
                             alert("Carregando próxima tela!")
                         }
@@ -108,7 +108,6 @@ const MyMenu = () => {
                     >
                         LOGO
                     </Typography>
-
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {profDropMenu()}

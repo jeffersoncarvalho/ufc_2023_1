@@ -11,13 +11,13 @@
 //import Hello_function_3 from "./components/01-introduction/00_hello/HelloFunction";
 //import Signin from "./components/04-mui/02-signin/Signin";
 //import MeuFlexBox from "./components/04-mui/01-flexbox/MeuFlexbox";
-import MyMenu from "./components/04-mui/03-crud/MyMenuV0";
-
+//import MyMenu from "./components/04-mui/03-crud/MyMenuV0";
+import MainPage from "./components/04-mui/03-crud/MainPage";
 
 function App() {
   return (
     <>
-      <MyMenu />
+      <MainPage />
     </>
   )
 }
