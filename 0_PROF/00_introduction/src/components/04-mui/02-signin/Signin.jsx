@@ -71,7 +71,7 @@ function Signin() {
 
             </Box>
         </Container>
-    );
+    )
 }
 
 export default Signin;

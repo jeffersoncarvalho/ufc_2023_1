@@ -118,7 +118,7 @@ const MyMenu = () => {
                     <MenuItem onClick={handleCloseProfMenu} component={Link} to={"cadastrarProfessor"}>
                         <Typography textAlign="center">Cadastrar</Typography>
                     </MenuItem>
-                    <MenuItem onClick={handleCloseProfMenu}>
+                    <MenuItem onClick={handleCloseProfMenu} component={Link} to={"listarProfessor/23/Jefferson"}>
                         <Typography textAlign="center">Listar</Typography>
                     </MenuItem>
                 </Menu>

@@ -1,8 +1,120 @@
+import { Typography, Box, TextField, Button, Select, MenuItem, InputLabel, FormControl, FormGroup, FormLabel, FormControlLabel, Checkbox } from "@mui/material"
+import { useState } from "react";
+
+
 const Cadastrar = () => {
+
+    const [nome, setNome] = useState("")
+    const [curso, setCurso] = useState("")
+    const [titulacao, setTitulacao] = useState("")
+    const [ai, setAi] = useState({ es: true, al: false, ds: false, mc: false })
+
+    const handleCheckbox = (event) => {
+        setAi({
+            ...ai,
+            [event.target.name]: event.target.checked,
+        });
+    };
+    const { es, al, ds, mc } = ai
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(nome)
+        console.log(curso)
+        console.log(titulacao)
+        console.log(ai)
+
+    }
+
     return (
-        <>
-            <h1>Cadastrar</h1>
-        </>
+        <Box
+            sx={{
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'flex-start',
+                alignItems: 'flex-start',
+            }}
+
+        >
+            <Typography variant="h4">
+                Cadastrar Professor
+            </Typography>
+
+            <Box
+                component="form"
+                onSubmit={handleSubmit}
+                sx={{
+                    width: "80%"
+                }}
+            >
+
+                <TextField
+                    margin="normal"
+                    required
+                    fullWidth
+                    id="nome"
+                    label="Nome Completo"
+                    name="nome"
+                    onChange={(event) => { setNome(event.target.value) }}
+                />
+
+                <TextField
+                    margin="normal"
+                    required
+                    fullWidth
+                    id="curso"
+                    label="Curso"
+                    name="curso"
+                    onChange={(event) => { setCurso(event.target.value) }}
+                />
+
+                <FormControl fullWidth sx={{ marginTop: 2 }}>
+                    <InputLabel id="select-tit-label">Titulação</InputLabel>
+                    <Select
+                        labelId="select-tit-label"
+                        value={titulacao}
+                        label="Titulação"
+                        onChange={(event) => { setTitulacao(event.target.value) }}
+
+                    >
+                        <MenuItem value="GRAD">Graduação</MenuItem>
+                        <MenuItem value="MEST">Mestrado</MenuItem>
+                        <MenuItem value="DOUT">Doutorado</MenuItem>
+                    </Select>
+                </FormControl>
+
+
+                <FormControl sx={{ marginTop: 2, marginLeft: 2 }} component="fieldset" variant="standard">
+                    <FormLabel component="legend" sx={{ fontSize: 12, marginBottom: 2 }}>Áreas de Interesse</FormLabel>
+                    <FormGroup>
+                        <FormControlLabel control={<Checkbox checked={es} name="es" onChange={handleCheckbox} />} label="Engenharia de Software" />
+                        <FormControlLabel control={<Checkbox checked={al} name="al" onChange={handleCheckbox} />} label="Algorítimos" />
+                        <FormControlLabel control={<Checkbox checked={ds} name="ds" onChange={handleCheckbox} />} label="Desenvolvimento de Software" />
+                        <FormControlLabel control={<Checkbox checked={mc} name="mc" onChange={handleCheckbox} />} label="Matemática Computacional" />
+                    </FormGroup>
+                </FormControl>
+
+
+                <Box
+                    sx={{
+                        display: "flex",
+                        flexDirection: "row",
+                        justifyContent: "center"
+                    }}
+
+                >
+                    <Button
+                        type="submit"
+                        variant="contained"
+                        sx={{ mt: 3, mb: 2 }}
+                    >
+                        Cadastrar
+                    </Button>
+                </Box>
+
+            </Box>
+
+        </Box>
     )
 }
 
