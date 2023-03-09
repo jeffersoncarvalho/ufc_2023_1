@@ -1,13 +1,51 @@
 import { Typography, Box, TextField, Button, Select, MenuItem, InputLabel, FormControl, FormGroup, FormLabel, FormControlLabel, Checkbox } from "@mui/material"
-import { useState } from "react";
+import { useState, useEffect } from "react"
+import { useParams } from 'react-router-dom';
 
-
-const Cadastrar = () => {
+const Editar = () => {
 
     const [nome, setNome] = useState("")
     const [curso, setCurso] = useState("")
     const [titulacao, setTitulacao] = useState("")
-    const [ai, setAi] = useState({ es: true, al: false, ds: false, mc: false })
+    const [ai, setAi] = useState({ es: false, al: false, ds: false, mc: false })
+
+    let { id } = useParams()
+   
+
+    useEffect(
+        () => {
+           
+           
+            let professor = getProfessorById(id)
+            //console.log(professor)
+             
+            if(professor) {
+                setNome(professor.nome)
+                setCurso(professor.curso)
+                setTitulacao(professor.titulacao)
+                setAi(professor.ai)
+            }        
+        }
+        ,
+        []
+    )
+
+    function getProfessorById(id) {
+        const professores = [
+            { id: 0, nome: "Vito Corleone", curso: "Sistemas de Informação", titulacao: "DOUT", ai: { es: true, al: false, ds: false, mc: true } },
+            { id: 1, nome: "Michael Corleone", curso: "Sistemas de Informação", titulacao: "DOUT", ai: { es: true, al: false, ds: false, mc: true } },
+            { id: 2, nome: "Kay Adams", curso: "Sistemas de Informação", titulacao: "DOUT", ai: { es: true, al: false, ds: false, mc: true } },
+            { id: 3, nome: "Peter Clemenza", curso: "Sistemas de Informação", titulacao: "GRAD", ai: { es: true, al: true, ds: false, mc: true } },
+            { id: 4, nome: "Salvatore Tessio", curso: "Sistemas de Informação", titulacao: "MEST", ai: { es: true, al: false, ds: false, mc: true } },
+            { id: 5, nome: "Luca Brasi", curso: "Sistemas de Informação", titulacao: "GRAD", ai: { es: true, al: false, ds: false, mc: true } }
+        ]
+         
+        for (let i=0; i<professores.length; i++) {
+        
+            if (professores[i].id == id) return professores[i]
+        }
+        return null
+    }
 
     const handleCheckbox = (event) => {
         setAi({
@@ -29,7 +67,7 @@ const Cadastrar = () => {
     return (
         <>
             <Typography variant="h5" fontWeight="bold">
-                Cadastrar Professor
+                Editar Professor
             </Typography>
 
             <Box
@@ -48,6 +86,7 @@ const Cadastrar = () => {
                     label="Nome Completo"
                     name="nome"
                     onChange={(event) => { setNome(event.target.value) }}
+                    value={nome}
                 />
 
                 <TextField
@@ -58,6 +97,7 @@ const Cadastrar = () => {
                     label="Curso"
                     name="curso"
                     onChange={(event) => { setCurso(event.target.value) }}
+                    value={curso}
                 />
 
                 <FormControl fullWidth sx={{ marginTop: 2 }}>
@@ -110,4 +150,4 @@ const Cadastrar = () => {
     )
 }
 
-export default Cadastrar
+export default Editar

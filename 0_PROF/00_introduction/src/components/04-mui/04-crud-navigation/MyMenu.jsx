@@ -1,5 +1,4 @@
 import React from "react";
-
 import { AppBar, Container, Toolbar, Typography, Box, Menu, MenuItem, Button, Tooltip, IconButton } from "@mui/material"
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
@@ -118,7 +117,7 @@ const MyMenu = () => {
                     <MenuItem onClick={handleCloseProfMenu} component={Link} to={"cadastrarProfessor"}>
                         <Typography textAlign="center">Cadastrar</Typography>
                     </MenuItem>
-                    <MenuItem onClick={handleCloseProfMenu} component={Link} to={"listarProfessor/23/Jefferson"}>
+                    <MenuItem onClick={handleCloseProfMenu} component={Link} to={"listarProfessor"}>
                         <Typography textAlign="center">Listar</Typography>
                     </MenuItem>
                 </Menu>
@@ -156,7 +155,7 @@ const MyMenu = () => {
     }
 
     return (
-        <AppBar position="static">
+        <AppBar position="static"> 
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
