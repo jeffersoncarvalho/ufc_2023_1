@@ -1,55 +1,49 @@
 //V0
 /*function HelloWorld() {
-  let nome = " de Carvalho"
-  return (
-    <div>
-      <h2>Jefferson {nome}</h2>
-      <h3>Design Digital</h3>
-      <div>
-          <h4>Campus de Quixadá</h4>
-      </div>
-    </div>
-  );
+  return <div>
+    <h1>Jefferson de Carvalho</h1>
+  </div>
 }*/
 
 import React from "react";
 
 //V1
-/*const HelloWorld = () => {
+/*function HelloWorld() {
   return (
     <div>
-      <h2>Jefferson</h2>
-      <h3>Design Digital</h3>
-      <div>
-          <h4>Campus de Quixadá</h4>
-      </div>
+      <h1>Jefferson de Carvalho V1</h1>
     </div>
-  );
+  )
 }*/
 
 //V2
-/*const HelloWorld = () => 
+/*const HelloWorld = () => {
+  let x = 2
+  let y = 3
+  let res = x + y
+  return (
     <div>
-      <h2>Jefferson </h2>
-      <h3>Design Digital</h3>
-      <div>
-          <h4>Campus de Quixadá</h4>
-      </div>
-    </div>*/
+      <h1>Jefferson de Carvalho V2 {res}</h1>
+    </div>
+  )
+}*/
 
 //V3
+/*const HelloWorld = () =>
+  <div>
+    <h1>Jefferson de Carvalho V3</h1>
+  </div>
+*/
+
+//V4
 class HelloWorld extends React.Component {
   render() {
     return (
       <div>
-        <h2>Jefferson com Classe </h2>
-        <h3>Design Digital</h3>
-        <div>
-          <h4>Campus de Quixadá</h4>
-        </div>
+        <h1>Jefferson de Carvalho V4</h1>
       </div>
-    );
+    )
   }
 }
 
-export default HelloWorld;
+export default HelloWorld 
