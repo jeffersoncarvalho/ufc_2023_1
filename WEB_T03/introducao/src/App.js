@@ -3,6 +3,17 @@ import './App.css';
 //import Calculadora from './components/01Calculadora';
 import MyProps from './components/02MyProps';
 
+/*function App() {
+  return (
+    <div className="App">
+      <MyProps 
+        nome="Jefferson" 
+        curso="Sistemas de Informação"
+      />
+    </div>
+  );
+}*/
+
 function App() {
   return (
     <div className="App">

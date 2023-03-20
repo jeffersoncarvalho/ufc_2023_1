@@ -1,11 +1,11 @@
+import React from "react";
+
 //V0
 /*function HelloWorld() {
   return <div>
     <h1>Jefferson de Carvalho</h1>
   </div>
 }*/
-
-import React from "react";
 
 //V1
 /*function HelloWorld() {
