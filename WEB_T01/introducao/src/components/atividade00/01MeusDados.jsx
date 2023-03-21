@@ -5,39 +5,35 @@ import { Component } from "react"
         <div>
             <h1>Jefferson de Carvalho</h1>
             <h1>Sistemas de Informação</h1>
-            <h1>UFC Quixadá</h1>
+            <h1>UFC - Quixada</h1>
         </div>
-    )  
+    ) 
 }*/
-
 /*const MeusDados = () => {
     return (
         <div>
             <h1>Jefferson de Carvalho</h1>
             <h1>Sistemas de Informação</h1>
-            <h1>UFC Quixadá</h1>
+            <h1>UFC - Quixada</h1>
         </div>
     )
 }*/
-
-/*const MeusDados = () =>
-    <div>
-        <h1>Jefferson de Carvalho</h1>
-        <h1>Sistemas de Informação</h1>
-        <h1>UFC Quixadá</h1>
-    </div>
+/*const MeusDados = () => 
+        <div>
+            <h1>Jefferson de Carvalho</h1>
+            <h1>Sistemas de Informação</h1>
+            <h1>UFC - Quixada</h1>
+        </div>
 */
-
 class MeusDados extends Component {
     render() {
         return (
             <div>
                 <h1>Jefferson de Carvalho</h1>
                 <h1>Sistemas de Informação</h1>
-                <h1>UFC Quixadá</h1>
+                <h1>UFC - Quixada</h1>
             </div>
         )
     }
 }
-
 export default MeusDados

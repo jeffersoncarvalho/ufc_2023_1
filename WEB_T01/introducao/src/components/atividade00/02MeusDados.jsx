@@ -6,6 +6,5 @@ const MeusDados = ({nome,curso,universidade}) => {
             <h1>{universidade}</h1>
         </div>
     )
-
 }
 export default MeusDados

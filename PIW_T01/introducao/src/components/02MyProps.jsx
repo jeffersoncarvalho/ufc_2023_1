@@ -9,7 +9,8 @@
 
 //V1
 /*const MyProps = (props) => {
-    const {nome,curso} = props
+    let nome = props.nome
+    let curso = props.curso
     return (
         <div>
             <h1> Meu nome é: {nome} e meu curso é: {curso}</h1>
@@ -19,8 +20,7 @@
 
 //V2
 /*const MyProps = (props) => {
-    let nome = props.nome
-    let curso = props.curso
+    const {nome,curso} = props
     return (
         <div>
             <h1> Meu nome é: {nome} e meu curso é: {curso}</h1>
