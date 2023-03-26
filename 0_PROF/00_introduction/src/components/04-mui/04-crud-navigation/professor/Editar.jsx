@@ -1,6 +1,9 @@
 import { Typography, Box, TextField, Button, Select, MenuItem, InputLabel, FormControl, FormGroup, FormLabel, FormControlLabel, Checkbox } from "@mui/material"
 import { useState, useEffect } from "react"
 import { useParams } from 'react-router-dom';
+import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
 
 const Editar = () => {
 
@@ -8,29 +11,41 @@ const Editar = () => {
     const [curso, setCurso] = useState("")
     const [titulacao, setTitulacao] = useState("")
     const [ai, setAi] = useState({ es: false, al: false, ds: false, mc: false })
+    const navigate = useNavigate()
 
     let { id } = useParams()
-   
+
 
     useEffect(
         () => {
-           
-           
-            let professor = getProfessorById(id)
+
+            //memória
+            //let professor = getProfessorById(id)
             //console.log(professor)
-             
-            if(professor) {
+
+            /*if(professor) {
                 setNome(professor.nome)
                 setCurso(professor.curso)
                 setTitulacao(professor.titulacao)
                 setAi(professor.ai)
-            }        
+            }*/
+            console.log(id)
+            axios.get("http://localhost:3001/professores/recuperar/" + id)
+                .then(
+                    (res) => {
+                        setNome(res.data.nome)
+                        setCurso(res.data.curso)
+                        setTitulacao(res.data.titulacao)
+                        setAi(res.data.ai)
+                    }
+                )
+                .catch(error => console.log(error))
         }
         ,
-        []
+        [id]
     )
 
-    function getProfessorById(id) {
+    /*function getProfessorById(id) {
         const professores = [
             { id: 0, nome: "Vito Corleone", curso: "Sistemas de Informação", titulacao: "DOUT", ai: { es: true, al: false, ds: false, mc: true } },
             { id: 1, nome: "Michael Corleone", curso: "Sistemas de Informação", titulacao: "DOUT", ai: { es: true, al: false, ds: false, mc: true } },
@@ -45,7 +60,7 @@ const Editar = () => {
             if (professores[i].id == id) return professores[i]
         }
         return null
-    }
+    }*/
 
     const handleCheckbox = (event) => {
         setAi({
@@ -57,10 +72,25 @@ const Editar = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(nome)
+        /*console.log(nome)
         console.log(curso)
         console.log(titulacao)
-        console.log(ai)
+        console.log(ai)*/
+        const updatedProfessor =
+        {
+            nome, curso, titulacao, ai
+        }
+        //axios.put('http://localhost:3001/students/' + params.id, updatedStudent)
+        axios.put('http://localhost:3001/professores/atualizar/' + id, updatedProfessor)
+            .then(
+                res => {
+                    //console.log(res.data)
+                    //props.history.push('/listStudent');
+                    //console.log(props)
+                    navigate("/listarProfessor")
+                }
+            )
+            .catch(error => console.log(error))
 
     }
 

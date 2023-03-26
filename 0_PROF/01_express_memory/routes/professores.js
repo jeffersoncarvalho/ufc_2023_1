@@ -17,4 +17,29 @@ router.get(
     }
 ) 
 
+router.put('/atualizar/:id', 
+    function (req, res, next) {
+        const professor = professorService.atualizar(req.params.id, req.body)
+        return res.json(professor)
+
+    }
+);
+
+router.delete('/apagar/:id', 
+    function (req, res, next) {
+        const ok = professorService.apagar(req.params.id)
+        if(ok) return res.json({"sucesso":true})
+        return res.json({"sucesso":false})
+    }
+);
+
+router.get('/recuperar/:id', 
+    function (req, res, next) {
+        const professor = professorService.recuperar(req.params.id)
+        return res.json(professor)
+    }
+);
+
+
 module.exports = router
+//Stochastic Analytical Model with a Bayesian Approach

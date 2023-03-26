@@ -5,6 +5,8 @@ import Stack from '@mui/material/Stack';
 import DeleteIcon from '@mui/icons-material/Delete';
 import EditIcon from '@mui/icons-material/Edit';
 import { Link } from "react-router-dom";
+import axios from "axios";
+import { useEffect, useState } from "react";
 
 import { styled } from '@mui/material/styles';
 
@@ -26,14 +28,30 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 
 const Listar = () => {
 
-    const professores = [
+    const [professores, setProfessores] = useState([])
+
+    useEffect(        
+        ()=>{
+          axios.get("http://localhost:3001/professores/listar")
+          .then(
+              (response)=>{
+                  //console.log(response.data)
+                  setProfessores(response.data)
+              }
+          )
+          .catch(error=>console.log(error))
+        },
+        []
+    )
+
+    /*const professores = [
         { id: 0, nome: "Vito Corleone", curso: "Sistemas de Informação", titulacao: "DOUT" },
         { id: 1, nome: "Michael Corleone", curso: "Sistemas de Informação", titulacao: "DOUT" },
         { id: 2, nome: "Kay Adams", curso: "Sistemas de Informação", titulacao: "DOUT" },
         { id: 3, nome: "Peter Clemenza", curso: "Sistemas de Informação", titulacao: "GRAD" },
         { id: 4, nome: "Salvatore Tessio", curso: "Sistemas de Informação", titulacao: "MEST" },
         { id: 5, nome: "Luca Brasi", curso: "Sistemas de Informação", titulacao: "GRAD" }
-    ]
+    ]*/
 
     function deleteProfessor(id) {
         if (window.confirm("Deseja Excluir?")){
