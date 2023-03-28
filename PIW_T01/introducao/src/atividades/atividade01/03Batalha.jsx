@@ -1,9 +1,13 @@
-const Hero = ({name}) => {
+import { Children, cloneElement } from 'react'
+
+import Gato from '../../assets/gato.png'
+
+const Hero = ({name, nomeDaArena}) => {
     return (
         <div>
-            <h1>Sou o herói {name}</h1>
+            <h1>Sou o herói {name} e estou lutando na arena {nomeDaArena}</h1>
             <img
-                src="https://www.quixada.ufc.br/wp-content/uploads/2015/11/João-240x320.png"
+                src={Gato}
                 alt="Meu herói!"
                 style={{width:"100px"}} 
             />
@@ -11,10 +15,10 @@ const Hero = ({name}) => {
     )
 }
 
-const Enemy = ({name}) => {
+const Enemy = ({name,nomeDaArena}) => {
     return (
         <div>
-            <h1>Sou o Inimigo {name}</h1>
+            <h1>Sou o Inimigo {name} e estou lutando na arena {nomeDaArena}</h1>
             <img
                 src="https://www.quixada.ufc.br/wp-content/uploads/2015/05/Wlademir-Araujo-Tavares1-240x320.png"
                 alt="Meu inimigo!"
@@ -24,11 +28,18 @@ const Enemy = ({name}) => {
     )
 }
 
-const Arena = () => {
+const Arena = ({name,children}) => {
     return (
         <div>
-            <Hero name="Vilnei" />
-            <Enemy name="Wlads" />
+            <h1>Arena {name}</h1>
+            {
+                Children.map(
+                    children,
+                    (filho)=>{
+                        return cloneElement(filho,{nomeDaArena:name})
+                    }
+                )
+            }
         </div>
     )
 }
@@ -36,7 +47,7 @@ const Arena = () => {
 const World = ({children}) => {
     return (
         <div>
-            {children}
+            {children}    
         </div>
     )
 }

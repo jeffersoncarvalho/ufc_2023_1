@@ -9,11 +9,34 @@ import './App.css';
 //import { Header as H, Body as B, Footer as F} from './components/05Multiplo';
 //import * as Site from './components/05Multiplo'
 //import { Supermercado, Legume, Fruta, Bebida } from './components/06Children';
-import Pai from './atividades/atividade01/questao01/01Pai';
-import * as PC from './atividades/atividade01/02MeuPC'
-import { Arena, World } from './atividades/atividade01/03Batalha';
+//import Pai from './atividades/atividade01/questao01/01Pai';
+//import * as PC from './atividades/atividade01/02MeuPC'
+//import { Arena, World, Hero, Enemy } from './atividades/atividade01/03Batalha';
+import FuncaoA from './components/07Contexto/FuncaoA';
 
 function App() {
+  return (
+    <div className="primeira-aula">
+      <FuncaoA />
+    </div>
+  );
+}
+
+/*function App() {
+  return (
+    <div className="primeira-aula">
+      <World>
+        <Arena name="Abilhão">
+          <Hero name="Vilnei" />
+          <Enemy name="Wlads" />
+        </Arena>
+      </World>
+    </div>
+  );
+}*/
+
+
+/*function App() {
   return (
     <div className="primeira-aula">
       <Pai />
@@ -28,7 +51,7 @@ function App() {
       </World>
     </div>
   );
-}
+}*/
 
 /*function App() {
   return (
