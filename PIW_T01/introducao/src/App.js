@@ -8,9 +8,29 @@ import './App.css';
 //import FunctionA from './components/04Hierarquia/FunctionA';
 //import { Header as H, Body as B, Footer as F} from './components/05Multiplo';
 //import * as Site from './components/05Multiplo'
-import { Supermercado, Legume, Fruta, Bebida } from './components/06Children';
+//import { Supermercado, Legume, Fruta, Bebida } from './components/06Children';
+import Pai from './atividades/atividade01/questao01/01Pai';
+import * as PC from './atividades/atividade01/02MeuPC'
+import { Arena, World } from './atividades/atividade01/03Batalha';
 
 function App() {
+  return (
+    <div className="primeira-aula">
+      <Pai />
+      <hr />
+      <PC.PlacaMae nome="Gigabyte" preco={5555.55} />
+      <PC.PlacaDeVideo nome="2060" preco={777.77} />
+      <PC.Memoria nome="DDR 4" preco={88.99} />
+      <hr />
+      <World>
+        <Arena />
+        <Arena />
+      </World>
+    </div>
+  );
+}
+
+/*function App() {
   return (
     <div className="primeira-aula">
       <Supermercado nome="DuPovaum">
@@ -21,7 +41,7 @@ function App() {
       </Supermercado>
     </div>
   );
-}
+}*/
 
 /*function App() {
   return (

@@ -1,7 +1,7 @@
 const HelloWorld = () => {
     return (
         <h1>
-            Jefferson de Carvalho
+            Olá Next
         </h1>
     )
 }

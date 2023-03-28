@@ -9,9 +9,36 @@ import './App.css';
 //import { Header, Body, Footer } from './components/04Multiplo';
 //import { Header as H, Body as B, Footer as F} from './components/04Multiplo';
 //import * as Site from './components/04Multiplo';
-import { Supermercado, Legume, Bebida } from './components/05Children';
+//import { Supermercado, Legume, Bebida } from './components/05Children';
+import Pai from './atividades/atividade01/questao01/01Pai';
+import * as PC from './atividades/atividade01/02MeuPC'
+import * as Batalha from './atividades/atividade01/03Batalha'
 
 function App() {
+  return (
+    <div className="App">
+      <Pai />
+      <hr />
+      <PC.PlacaDeVideo nome="RTX 3060" preco={5600.99} />
+      <PC.PlacaMae nome="GigaByte" preco={1000.99} />
+      <PC.Memoria nome="DDR 4" preco={500.99} />
+      <hr />
+      <Batalha.World>
+        <Batalha.Arena />
+        <Batalha.Arena />
+      </Batalha.World>
+      <hr />
+      <Batalha.World>
+        <Batalha.Arena2 name="Castelão">
+          <Batalha.Hero name="Super Wlads" />
+          <Batalha.Enemy name="Dr. Jeff MasterMind" />
+        </Batalha.Arena2>
+      </Batalha.World>
+    </div>
+  );
+}
+
+/*function App() {
   return (
     <div className="App">
       <Supermercado nome="DuPovaum">
@@ -20,7 +47,7 @@ function App() {
       </Supermercado>
     </div>
   );
-}
+}*/
 
 /*function App() {
   return (

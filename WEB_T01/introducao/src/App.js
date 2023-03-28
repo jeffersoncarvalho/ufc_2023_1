@@ -9,7 +9,41 @@ import './App.css';
 //import {Header,Body,Footer} from './components/04MultiploComponente';
 //import {Header as H,Body as B,Footer as F} from './components/04MultiploComponente';
 //import * as Site from './components/04MultiploComponente';
-import { Supermercado, Legume, Fruta, Bebida } from './components/05Children/MyChildrenV0';
+//import { Supermercado, Legume, Fruta, Bebida } from './components/05Children/MyChildrenV0';
+//import Pai from './components/atividade01/questao01/01Pai';
+//import * as PC from './components/atividade01/02MeuPC'
+//import * as Batalha from './components/atividade01/03Batalha'
+import FuncaoA from './components/06Contexto/FuncaoA';
+
+function App() {
+  return (
+    <FuncaoA />
+  );
+}
+
+/*function App() {
+  return (
+    <div>
+      <Pai />
+      <hr />
+      <PC.PlacaDeVideo nome="RTX 3090" preco={10300.99} />
+      <PC.PlacaMae nome="Gigabyte" preco={1000.99} />
+      <PC.Memoria nome="DDR 4" preco={600.99} />
+      <hr />
+      <Batalha.World>
+        <Batalha.Arena name="Castelão" />
+        <Batalha.Arena name="Abilhão" />       
+      </Batalha.World>
+      <hr />
+      <Batalha.World>
+        <Batalha.Arena2 name="Castelão" >
+            <Batalha.Hero name="Super Aragas" />
+            <Batalha.Enemy name="Jeff Mastermind" />
+        </Batalha.Arena2>     
+      </Batalha.World>
+    </div>
+  );
+}*/
 
 /*function App() {
   return (
@@ -31,7 +65,7 @@ import { Supermercado, Legume, Fruta, Bebida } from './components/05Children/MyC
   );
 }*/
 
-function App() {
+/*function App() {
   return (
     <div>
       <Supermercado nome="DuPovaum">
@@ -41,6 +75,6 @@ function App() {
       </Supermercado>
     </div>
   );
-}
+}*/
 
 export default App;
