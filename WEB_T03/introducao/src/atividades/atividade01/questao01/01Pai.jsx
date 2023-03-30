@@ -1,5 +1,4 @@
 import Filho from "./01Filho"
-
 const Pai = () => {
     /*
     Corpo do Componente

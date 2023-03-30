@@ -1,6 +1,6 @@
 const Filho = ({altura,peso}) => {
 
-    const calcularIMC = (altura,peso) => peso/(altura*altura)
+    const calcularIMC = (a,p) => p/(a*a)
     
     const renderizerMensagem = (imc) => {
         if(imc > 25) return <h3>Acima do peso</h3>

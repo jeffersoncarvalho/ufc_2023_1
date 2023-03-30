@@ -10,11 +10,20 @@ import './App.css';
 //import { Header as H, Body as B, Footer as F} from './components/04Multiplo';
 //import * as Site from './components/04Multiplo';
 //import { Supermercado, Legume, Bebida } from './components/05Children';
-import Pai from './atividades/atividade01/questao01/01Pai';
-import * as PC from './atividades/atividade01/02MeuPC'
-import * as Batalha from './atividades/atividade01/03Batalha'
+//import Pai from './atividades/atividade01/questao01/01Pai';
+//import * as PC from './atividades/atividade01/02MeuPC'
+//import * as Batalha from './atividades/atividade01/03Batalha'
+import FuncaoA from './components/06Contexto/FuncaoA';
 
 function App() {
+  return (
+    <div className="App">
+      <FuncaoA />
+    </div>
+  );
+}
+
+/*function App() {
   return (
     <div className="App">
       <Pai />
@@ -37,6 +46,7 @@ function App() {
     </div>
   );
 }
+*/
 
 /*function App() {
   return (

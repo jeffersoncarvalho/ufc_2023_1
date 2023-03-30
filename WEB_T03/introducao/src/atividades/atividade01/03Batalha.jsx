@@ -1,11 +1,12 @@
 import { Children, cloneElement } from "react"
+import Superman from '../../assets/superman.png'
 
 const Hero = ({name,arena}) => {
     return (
         <div>
             <h1>Sou o herói {name} lutando na arena {arena}</h1>
             <img 
-                src="https://www.quixada.ufc.br/wp-content/uploads/2015/05/Wlademir-Araujo-Tavares1-240x320.png"
+                src={Superman}
                 style={{width:"240px"}}
                 alt="O herói"
             />
