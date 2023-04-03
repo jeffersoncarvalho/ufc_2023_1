@@ -13,12 +13,14 @@ import './App.css';
 //import Pai from './atividades/atividade01/questao01/01Pai';
 //import * as PC from './atividades/atividade01/02MeuPC'
 //import * as Batalha from './atividades/atividade01/03Batalha'
-import FuncaoA from './components/06Contexto/FuncaoA';
+//import FuncaoA from './components/06Contexto/FuncaoA';
+//import FuncaoA from './atividades/atividade02/questao01/FuncaoA';
+import Avo from './atividades/atividade02/questao02/Avo';
 
 function App() {
   return (
     <div className="App">
-      <FuncaoA />
+      <Avo />
     </div>
   );
 }
