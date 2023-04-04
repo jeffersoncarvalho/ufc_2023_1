@@ -12,12 +12,17 @@ import './App.css';
 //import Pai from './atividades/atividade01/questao01/01Pai';
 //import * as PC from './atividades/atividade01/02MeuPC'
 //import { Arena, World, Hero, Enemy } from './atividades/atividade01/03Batalha';
-import FuncaoA from './components/07Contexto/FuncaoA';
+//import FuncaoA from './components/07Contexto/FuncaoA';
+//import FuncaoA from './atividades/atividade02/questao01/FuncaoA';
+//import Avo from './atividades/atividade02/questao02/Avo';
+//import SaveData from './components/08Storage/FunctionLocalStorage';
+//import Pai from './components/09PaiFilho/Pai';
+import FunctionEstados from './components/10Estados/FunctionEstados';
 
 function App() {
   return (
     <div className="primeira-aula">
-      <FuncaoA />
+      <FunctionEstados />
     </div>
   );
 }

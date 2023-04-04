@@ -4,10 +4,10 @@ const FuncaoD = () => {
     return (
         <MinhaCor.Consumer>
             {
-                ({minhaCor,nome}) => {
+                ({bkgD}) => {
                     return (
                         <div>
-                            <h1 style={{backgroundColor:minhaCor}}>Função D do {nome}</h1>
+                            <h1 style={{backgroundColor:bkgD}}>Função D</h1>
                         </div>
                     )
                 }

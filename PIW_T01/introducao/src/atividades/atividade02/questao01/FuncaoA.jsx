@@ -3,11 +3,11 @@ import FuncaoC from "./FuncaoC"
 import MinhaCor from "./MeuContexto"
 
 const FuncaoA = () => {
-    const cor = "red"
+    const cores = {bkgA:"yellow",bkgB:"red",bkgC:"green",bkgD:"gray"}
     return (
-        <MinhaCor.Provider value={{minhaCor:cor,nome:"Jefferson"}}>
+        <MinhaCor.Provider value={cores}>
             <div>
-                <h1 style={{ backgroundColor: cor }}>Função A</h1>
+                <h1 style={{ backgroundColor: cores.bkgA }}>Função A</h1>
                 <FuncaoB />
                 <FuncaoC />
             </div>
