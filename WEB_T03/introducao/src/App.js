@@ -15,12 +15,15 @@ import './App.css';
 //import * as Batalha from './atividades/atividade01/03Batalha'
 //import FuncaoA from './components/06Contexto/FuncaoA';
 //import FuncaoA from './atividades/atividade02/questao01/FuncaoA';
-import Avo from './atividades/atividade02/questao02/Avo';
+//import Avo from './atividades/atividade02/questao02/Avo';
+//import {SaveData,LoadData} from './components/07Storage/MyStorage';
+//import Pai from './components/08PaiFilho/Pai';
+import Contador from './components/09Estados/Contador';
 
 function App() {
   return (
     <div className="App">
-      <Avo />
+      <Contador />
     </div>
   );
 }
