@@ -19,7 +19,7 @@ const Contador = () => {
 
     const aumentarContador = () => {
         //contador++
-        setContador((contadorAnterior)=>contadorAnterior+1)
+        setContador(contador + 1)
         //console.log(contador)
     }
 

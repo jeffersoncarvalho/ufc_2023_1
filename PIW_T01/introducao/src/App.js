@@ -17,12 +17,14 @@ import './App.css';
 //import Avo from './atividades/atividade02/questao02/Avo';
 //import SaveData from './components/08Storage/FunctionLocalStorage';
 //import Pai from './components/09PaiFilho/Pai';
-import FunctionEstados from './components/10Estados/FunctionEstados';
+//import FunctionEstados from './components/10Estados/FunctionEstados';
+//import VotaCidades from './atividades/atividade03/questao01/VotaCidades';
+import VotaCidades from './atividades/atividade03/questao01/VotaCidades01';
 
 function App() {
   return (
-    <div className="primeira-aula">
-      <FunctionEstados />
+    <div >
+      <VotaCidades />    
     </div>
   );
 }

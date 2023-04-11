@@ -12,12 +12,15 @@
 //import Signin from "./components/04-mui/02-signin/Signin";
 //import MeuFlexBox from "./components/04-mui/01-flexbox/MeuFlexbox";
 //import MyMenu from "./components/04-mui/03-crud/MyMenuV0";
-import MainPage from "./components/04-mui/04-crud-navigation/MainPage";
+//import MainPage from "./components/04-mui/04-crud-navigation/MainPage";
+
+import VotaCidades from "./atividades/atividade03/questao01/VotaCidades";
 
 function App() {
   return (
     <>
-      <MainPage />
+      {/* <MainPage /> */}
+      <VotaCidades />
     </>
   )
 }

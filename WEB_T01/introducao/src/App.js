@@ -15,11 +15,13 @@ import './App.css';
 //import * as Batalha from './components/atividade01/03Batalha'
 //import FuncaoA from './components/06Contexto/FuncaoA';
 //import FuncaoA from './components/atividade02/questao01/FuncaoA';
-import ComponenteAvo from './components/atividade02/questao03/ComponenteAvo';
+//import ComponenteAvo from './components/atividade02/questao03/ComponenteAvo';
+//import VotaCidades from './components/atividade03/questao01/VotaCidades';
+import PokemonAxios from './components/10Axios/PokemonAxios';
 
 function App() {
   return (
-    <ComponenteAvo />
+    <PokemonAxios />
   );
 }
 
