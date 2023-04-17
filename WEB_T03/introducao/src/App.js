@@ -19,12 +19,15 @@ import './App.css';
 //import {SaveData,LoadData} from './components/07Storage/MyStorage';
 //import Pai from './components/08PaiFilho/Pai';
 //import Contador from './components/09Estados/Contador';
-import VotaCidades from './atividades/atividade03/questao01/VotaCidades';
+//import VotaCidades from './atividades/atividade03/questao01/VotaCidades';
+//import VotaCidades from './atividades/atividade03/questao01/VotaCidadesV1';
+//import PokemonAxios from './components/10Axios/PokemonAxios';
+import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
 
 function App() {
   return (
     <div>
-      <VotaCidades />
+      <TelaPrincipal />
     </div>
   );
 }

@@ -16,12 +16,14 @@ import './App.css';
 //import FuncaoA from './components/06Contexto/FuncaoA';
 //import FuncaoA from './components/atividade02/questao01/FuncaoA';
 //import ComponenteAvo from './components/atividade02/questao03/ComponenteAvo';
-import VotaCidades from './components/atividade03/questao01/VotaCidadesV1';
+//import VotaCidades from './components/atividade03/questao01/VotaCidadesV1';
 //import PokemonAxios from './components/10Axios/PokemonAxios';
+//import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
+import MeuIndex from './components/11Redux/v2/MeuIndex';
 
 function App() {
   return (
-    <VotaCidades />
+    <MeuIndex />
   );
 }
 
