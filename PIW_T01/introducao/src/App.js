@@ -19,12 +19,13 @@ import './App.css';
 //import Pai from './components/09PaiFilho/Pai';
 //import FunctionEstados from './components/10Estados/FunctionEstados';
 //import VotaCidades from './atividades/atividade03/questao01/VotaCidades';
-import VotaCidades from './atividades/atividade03/questao01/VotaCidades01';
+//import VotaCidades from './atividades/atividade03/questao01/VotaCidades01';
+import PokemonAxios from './components/10Axios/PokemonAxios';
 
 function App() {
   return (
     <div >
-      <VotaCidades />    
+      <PokemonAxios />    
     </div>
   );
 }
