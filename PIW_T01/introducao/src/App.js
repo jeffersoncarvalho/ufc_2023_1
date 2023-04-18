@@ -21,12 +21,13 @@ import './App.css';
 //import VotaCidades from './atividades/atividade03/questao01/VotaCidades';
 //import VotaCidades from './atividades/atividade03/questao01/VotaCidades01';
 //import PokemonAxios from './components/10Axios/PokemonAxios';
-import TelaPrincipal from './components/11Redux/v2/TelaPrincipal';
+//import TelaPrincipal from './components/11Redux/v2/TelaPrincipal';
+import MeuIndex from './components/11Redux/v2/MeuIndex';
 
 function App() {
   return (
     <div >
-      <TelaPrincipal />    
+      <MeuIndex />    
     </div>
   );
 }
