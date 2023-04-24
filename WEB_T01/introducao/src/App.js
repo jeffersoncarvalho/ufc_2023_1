@@ -20,11 +20,12 @@ import './App.css';
 //import PokemonAxios from './components/10Axios/PokemonAxios';
 //import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
 //import MeuIndex from './components/11Redux/v2/MeuIndex';
-import MinhaPromise from './components/12Promises/MinhaPromise';
+//import MinhaPromise from './components/12Promises/MinhaPromise';
+import MeuAwait from './components/12Promises/MeuAsync';
 
 function App() {
   return (
-    <MinhaPromise />
+    <MeuAwait />
   );
 }
 
