@@ -23,12 +23,13 @@ import './App.css';
 //import VotaCidades from './atividades/atividade03/questao01/VotaCidadesV1';
 //import PokemonAxios from './components/10Axios/PokemonAxios';
 //import TelaPrincipal from './components/11Redux/v2/TelaPrincipal';
-import MeuIndex from './components/11Redux/v2/MeuIndex';
+//import MeuIndex from './components/11Redux/v2/MeuIndex';
+import MinhaPromise from './components/12Promises/MinhaPromise';
 
 function App() {
   return (
     <div>
-      <MeuIndex />
+      <MinhaPromise />
     </div>
   );
 }

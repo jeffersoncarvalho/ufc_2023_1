@@ -13,14 +13,14 @@
 //import MeuFlexBox from "./components/04-mui/01-flexbox/MeuFlexbox";
 //import MyMenu from "./components/04-mui/03-crud/MyMenuV0";
 //import MainPage from "./components/04-mui/04-crud-navigation/MainPage";
-
-import VotaCidades from "./atividades/atividade03/questao01/VotaCidades";
+//import VotaCidades from "./atividades/atividade03/questao01/VotaCidades";
+import MyUseRef from "./components/01-introduction/11_useRef/MyUseRef";
 
 function App() {
   return (
     <>
       {/* <MainPage /> */}
-      <VotaCidades />
+      <MyUseRef />
     </>
   )
 }

@@ -7,7 +7,7 @@ const BotaoDecrementar = () => {
 
     return (
         <>
-            <button onClick={()=>despachante(decrementar())}>
+            <button onClick={()=>despachante(decrementar(5))}>
                 ID - 1
             </button>
         </>
