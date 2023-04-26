@@ -1,6 +1,8 @@
 const { useEffect } = require("react")
 
-
+function somar(x,y) {
+    return x + y
+}
 
 function get(url) {
 
@@ -31,6 +33,7 @@ const MinhaPromessa = () => {
 
     useEffect(
         () => {
+            
             //console.log("Olá!")
             get("http://...")
                 .then(

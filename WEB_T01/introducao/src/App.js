@@ -21,11 +21,12 @@ import './App.css';
 //import TelaPrincipal from './components/11Redux/v1/TelaPrincipal';
 //import MeuIndex from './components/11Redux/v2/MeuIndex';
 //import MinhaPromise from './components/12Promises/MinhaPromise';
-import MeuAwait from './components/12Promises/MeuAsync';
+//import MeuAwait from './components/12Promises/MeuAsync';
+import MyRefs from './components/13Refs/MyRefs';
 
 function App() {
   return (
-    <MeuAwait />
+    <MyRefs />
   );
 }
 
