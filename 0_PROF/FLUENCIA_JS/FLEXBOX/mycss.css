@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: 600px;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+.item {
+    width: 100px;
+    border: 1px solid black
+}
+
+.one {
+    flex: 1;
+    border: 1px solid black
+}
+.two {
+    flex: 2;
+    border: 1px solid black
+}
+.three {
+    flex: 3;
+    border: 1px solid black
+}

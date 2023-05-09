@@ -1,0 +1,64 @@
+.box-row {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+}
+.box-column {
+    display: flex;
+    flex-direction: column;
+}
+.box-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.box-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box-row-wrap{
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap; /*aglutina as propriedades flex-direction e flex-wrap respectivamente*/
+}
+.box-column-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+}
+.item {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+.box-flex {
+    display: flex;
+    width: 500px;
+}
+.one {
+    flex: 1;
+    border: 1px solid black;
+}
+.two {
+    flex: 2;
+    border: 1px solid black;
+}
+.three {
+    flex: 3;
+    border: 1px solid black;
+}
+.box-align-items { /*o contrário do flex-direction*/
+    display: flex;
+    flex-direction: row; /*cross axis: linha*/
+    height: 300px;
+    align-items: center;
+}
+.box-justify-content { /*igual ao flex-direction*/
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
