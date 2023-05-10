@@ -39,13 +39,65 @@
 .box-flex {
     display: flex;
 }
+.box-align-items {
+    display: flex;
+    flex-direction: column; /*diz respeito ao main-axis*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    align-items: flex-end; /*diz respeito ao alinhamento no cross-axis*/
+    border: 1px solid red;
+    height: 300px;
+}
+.box-justify-items {
+    display: flex;
+    flex-direction: row; /*diz respeito ao main-axis*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    /*align-items: stretch;*/
+    justify-content: flex-end;
+    align-items: center;
+    border: 1px solid red;
+    height: 300px;
+}
+.box-justify-items-around {
+    display: flex;
+    flex-direction: row; /*diz respeito ao main-axis*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    /*align-items: stretch;*/
+    justify-content: space-around;
+    border: 1px solid red;
+}
+.box-justify-items-between {
+    display: flex;
+    flex-direction: row; /*diz respeito ao main-axis*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    /*align-items: stretch;*/
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.box-justify-items-evenly {
+    display: flex;
+    flex-direction: column; /*diz respeito ao main-axis*/
+    /*flex-wrap: nowrap;*/
+    /*flex-flow: row nowrap;*/
+    /*align-items: stretch;*/
+    justify-content: space-between;
+    border: 1px solid red;
+    height: 300px;
+}
 .item {
     border: 1px solid black;
     width: 50px;
 }
 .item-one {
     border: 1px solid black;
-    flex: 1
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item-two {
     border: 1px solid black;
@@ -54,4 +106,19 @@
 .item-three {
     border: 1px solid black;
     flex: 6
+}
+.item-red {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.item-green {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+}
+.item-blue {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
 }
