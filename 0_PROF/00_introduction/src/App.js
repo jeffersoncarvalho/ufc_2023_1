@@ -14,13 +14,16 @@
 //import MyMenu from "./components/04-mui/03-crud/MyMenuV0";
 //import MainPage from "./components/04-mui/04-crud-navigation/MainPage";
 //import VotaCidades from "./atividades/atividade03/questao01/VotaCidades";
-import MyUseRef from "./components/01-introduction/11_useRef/MyUseRef";
+//import MyUseRef from "./components/01-introduction/11_useRef/MyUseRef";
+//import { Questao01A } from "./test01/Questao01";
+//import Questao02 from "./test01/Questao02";
+import Questao03 from "./test01/Questao03";
 
 function App() {
   return (
     <>
       {/* <MainPage /> */}
-      <MyUseRef />
+      <Questao03 />
     </>
   )
 }
