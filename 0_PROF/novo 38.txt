@@ -28,7 +28,7 @@ ANTONIO DEIVID SANTOS COSTA - OK - https://github.com/AntDeivid/DesenvolvimentoW
 AUGUSTO CESAR ARAUJO DE OLIVEIRA - OK - https://github.com/augustces/desenvolvimento-web
 CARLOS GABRIEL DE CASTRO RODRIGUES - OK - https://github.com/Gabriel-CR/Desenvolvimento_Web/tree/main/PROVAS/PROVA_1/ap1
 CARLOS HENRIQUE ANDRADE DE CARVALHO - OK - https://codesandbox.io/s/primeira-avaliacao-parcial-forked-lxlhtu
-CARLOS SAMUEL SOUSA SANTOS - OK - ARQUIVO
+CARLOS SAMUEL SOUSA SANTOS - OK - https://github.com/carlosamuel8/desenvolcimento-web-2023.1/tree/master/atividades/src/components/prova01
 CLEILTON ALVES GUSTAVO - OK - https://github.com/CleiltonGustavo/AP01DEVWEB
 DARLAN OLIVEIRA FERREIRA - OK - https://github.com/darlanferreira1/Disciplina_Desenvolvimento_web/tree/master/src/components/21_ap1
 DAVID ALVES SOARES - OK - https://github.com/dev-david-alves/Dev-Web-UFC2023/tree/main/prova01

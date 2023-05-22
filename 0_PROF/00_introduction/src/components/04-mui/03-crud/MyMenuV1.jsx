@@ -1,5 +1,4 @@
 import React from "react";
-
 import { AppBar, Container, Toolbar, Typography, Box, Menu, MenuItem, Button, Tooltip } from "@mui/material"
 import AdbIcon from "@mui/icons-material/Adb"
 
@@ -15,6 +14,7 @@ const MyMenu = () => {
     const handleCloseProfMenu = () => {
         setAnchorElProf(null);
     };
+    
     const handleOpenAlunoMenu = (event) => {
         setAnchorElAluno(event.currentTarget);
     };
@@ -29,7 +29,7 @@ const MyMenu = () => {
                 <Tooltip title="Abrir opções">
                     <Button
                         onClick={handleOpenProfMenu}
-                        sx={{ my: 2, color: 'white', display: 'block' }}
+                        sx={{ my: 2, color: 'white' }}
                     >
                         Professores
                     </Button>
@@ -63,7 +63,7 @@ const MyMenu = () => {
                 <Tooltip title="Abrir opções">
                     <Button
                         onClick={handleOpenAlunoMenu}
-                        sx={{ my: 2, color: 'white', display: 'block' }}
+                        sx={{ my: 2, color: 'white' }}
                     >
                         Alunos
                     </Button>
@@ -102,7 +102,7 @@ const MyMenu = () => {
                             fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
-                            color: 'inherit',
+                            color: 'white',
                             textDecoration: 'none',
                         }}
                     >
@@ -115,7 +115,7 @@ const MyMenu = () => {
                         {alunoDropMenu()}
                         <Button
                             onClick={() => alert('Sobre!')}
-                            sx={{ my: 2, color: 'white', display: 'block' }}
+                            sx={{ my: 2, color: 'white' }}
                         >
                             Sobre
                         </Button>

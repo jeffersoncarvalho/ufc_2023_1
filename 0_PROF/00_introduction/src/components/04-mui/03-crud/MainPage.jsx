@@ -1,4 +1,4 @@
-import MyMenu from "./MyMenuV2"
+import MyMenu from "./MyMenuV1"
 
 const MainPage = () => {
     return <MyMenu />

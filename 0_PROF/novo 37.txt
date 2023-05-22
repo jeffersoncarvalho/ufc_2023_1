@@ -20,48 +20,48 @@ SAMUEL COSTA DO NASCIMENTO - OK - https://github.com/samuelc-dev/ProvaDevWeb2023
 VANESSA DE OLIVEIRA LIMA - OK - https://github.com/vnessalima/PrimeiraProvaWeb/tree/main
 VITTOR DE MORAIS MELO - OK - https://github.com/VittorMe/AVALIACAO-PARCIAL-D
 
-WEB T03 1F
+WEB T03 (3 FALTAS) 1F
 
-GUILHERME AUGUSTO DIAS DO CARMO
-GUILHERME DOS SANTOS CAVALCANTE
-GUSTAVO FERNANDES DE BARROS
-JEFERSON AIRES DE SOUSA
-JOAO GUSTAVO FEITOSA BRITO
-JOAO NOROES MENEZES CASTRO
-JOAO PEDRO CORDEIRO GUIMARAES
-JORGE BRUNO COSTA ALVES
-JORGE EDUARDO SILVA SOUSA
-JOSE ELIAS FARIAS ROCHA
-KAYNAN PEREIRA DE SOUSA
-KELVY HALLYSON LEONCIO SILVA
-LUCAS GABRIEL BRITO SILVEIRA
-LUIZ GUILHERME MOREIRA LEITE
-LUIZ HENRIQUE MEDEIROS DE SOUZA
-MARCELO SILVA DE LIMA
-MARIA GABRIELLE DE OLIVEIRA PEIXOTO
-MATEUS EVANGELISTA DE SOUSA
-MATEUS LIMA RODRIGUES
-RENE ARRAES VIEIRA JUNIOR
+GUILHERME AUGUSTO DIAS DO CARMO - FALTOU
+GUILHERME DOS SANTOS CAVALCANTE - OK - https://github.com/Guilhermedsc/DevSWeb/tree/main/aulas_atividades/src/components/Prova01F
+GUSTAVO FERNANDES DE BARROS - https://github.com/gufernandess/WEB01
+JEFERSON AIRES DE SOUSA - OK - https://github.com/JefersonAires10/Desenvolvimento-WEB-AP1/tree/main/ap1/src/components
+JOAO GUSTAVO FEITOSA BRITO - OK - https://github.com/gustavobritof/WEB-2023.1/tree/main/aula2-1503/src/components/AP1
+JOAO NOROES MENEZES CASTRO - OK - https://github.com/Joaonorr/web-AP1
+JOAO PEDRO CORDEIRO GUIMARAES - OK - https://codesandbox.io/s/ap1-web-qs22sm
+JORGE BRUNO COSTA ALVES - OK - https://github.com/brunoalves0921/DevWeb/tree/main/prova-1-F
+JORGE EDUARDO SILVA SOUSA - OK - https://github.com/JorgEdu1/AP1-Desenvolvimento-Web.git
+JOSE ELIAS FARIAS ROCHA - OK - https://codesandbox.io/s/angry-hooks-9w8vui?file=/src/App.js
+KAYNAN PEREIRA DE SOUSA - OK - https://github.com/kaynan951/Desenvolvimento_WEB-AP1/tree/main
+KELVY HALLYSON LEONCIO SILVA - OK - https://github.com/Kelvyh/WEB_AP1_2023.1/tree/master/ap1/src/components
+LUCAS GABRIEL BRITO SILVEIRA - OK - https://github.com/LucasG42/Web
+LUIZ GUILHERME MOREIRA LEITE - OK - https://github.com/LGuilhermeMoreira/Web/tree/main/Provas/prova
+LUIZ HENRIQUE MEDEIROS DE SOUZA - OK - https://github.com/Luizrev/dev-WEB/tree/master/src/Components/Prova01
+MARCELO SILVA DE LIMA - OK - https://github.com/marcelo2136/Prova01_DSW
+MARIA GABRIELLE DE OLIVEIRA PEIXOTO - OK - https://github.com/Gabyoliver606/Web2023
+MATEUS EVANGELISTA DE SOUSA - FALTOU
+MATEUS LIMA RODRIGUES - OK - https://github.com/spiral-999/web/tree/e2901d0276a29cc7fc37f7c80cfa60a8ced0c804/src/components/PROVAS/PROVA1F
+RENE ARRAES VIEIRA JUNIOR - FALTOU
 
-PIW - T01 1E (1 FALTA)
+PIW - T01 (1 FALTA) 1E 
 
-LARA MARIA TEIXEIRA LEONCIO - OK
-LARISSA UCHOA DE ARAUJO - OK
-LUCAS GADELHA FONSECA - OK
-LUIS EDUARDO ALMEIDA SARAIVA - OK
-LUIS GUILHERME VIANA FERNANDES - OK
-MARIA CLARA RODRIGUES ALVES - OK
+LARA MARIA TEIXEIRA LEONCIO - OK - https://codesandbox.io/s/prova-912c2r?file=/src/PONTOS.txt
+LARISSA UCHOA DE ARAUJO - OK - https://github.com/laraujo434046/Prova_1-E
+LUCAS GADELHA FONSECA - OK - https://github.com/Lucas-Gadelha/PIW-2023.1.git
+LUIS EDUARDO ALMEIDA SARAIVA - OK - https://github.com/Edusav/piw/tree/f980b87db9cdae85adbc246da51b426d28b4b942
+LUIS GUILHERME VIANA FERNANDES - OK - https://github.com/LuisGuilherme26/Prova-1-E.git
+MARIA CLARA RODRIGUES ALVES - OK - NÃO ENTREGOU
 MARIA LUISA SANTOS PITOMBEIRA - FALTOU
-MARIA RITA LIMA PEREIRA - OK
-MARISANGELA DE SOUSA LIMA - OK
-MAURICIO ANTONIO MARTINS CRUZ - OK
-MAURICIO CAMPOS DE SOUSA - OK
-NATALIA BARROS DE LIMA - OK
-NATALY CAMPELO SILVA - OK
-NATHAN DOS SANTOS DA SILVA - OK
+MARIA RITA LIMA PEREIRA - OK - ARQUIVO
+MARISANGELA DE SOUSA LIMA - OK - https://github.com/Marisangela1802/ProvaPiw
+MAURICIO ANTONIO MARTINS CRUZ - OK - https://github.com/MauricioAMCruz/PiwAP1
+MAURICIO CAMPOS DE SOUSA - OK - https://github.com/macamp0s/prova01.git
+NATALIA BARROS DE LIMA - OK - https://codesandbox.io/s/prova-natalia-barros-de-lima-prova-1-e-forked-qbifgi?file=/src/Component/Questao02.jsx
+NATALY CAMPELO SILVA - OK - https://github.com/Naty42/PIW/tree/main/prova01
+NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw
 PAULO GUILHERME FLORIANO DA SILVA - OK
-RAIMUNDO VINICIUS DA SILVA MEDEIROS - OK
-SAVILA LETICIA AMANCIO OLIVEIRA - OK
-TALITA JUSTINO MACIEL - OK
-VIVIAN PEDROSA MOREIRA PEREIRA - OK
-YURI SILVA DE LIMA - OK
+RAIMUNDO VINICIUS DA SILVA MEDEIROS - OK - https://github.com/rviniciusm/PROVA_PIW
+SAVILA LETICIA AMANCIO OLIVEIRA - OK - https://github.com/savila16/hello_world/tree/main/prova01
+TALITA JUSTINO MACIEL - OK - https://github.com/talitajmaciel/PIW_2023
+VIVIAN PEDROSA MOREIRA PEREIRA - OK - https://github.com/vizahi/Piw-Prova
+YURI SILVA DE LIMA - OK - https://github.com/yuri-L1ma/PIW/tree/master/src/components/provaPIW
