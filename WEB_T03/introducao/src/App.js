@@ -25,12 +25,14 @@ import './App.css';
 //import TelaPrincipal from './components/11Redux/v2/TelaPrincipal';
 //import MeuIndex from './components/11Redux/v2/MeuIndex';
 //import MinhaPromise from './components/12Promises/MinhaPromise';
-import MeuAsync from './components/12Promises/MeuAsync';
+//import MeuAsync from './components/12Promises/MeuAsync';
+//import Signin from './components/13MUI/01Signin/Signin';
+import MyMenu from './components/13MUI/02Crud/MyMenuV1';
 
 function App() {
   return (
     <div>
-      <MeuAsync />
+      <MyMenu />
     </div>
   );
 }
