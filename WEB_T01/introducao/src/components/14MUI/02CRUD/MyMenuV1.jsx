@@ -1,5 +1,6 @@
 import { AppBar, Box, Button, Container, Menu, MenuItem, Toolbar, Typography } from "@mui/material"
 import AdbIcon from "@mui/icons-material/Adb"
+import { Link } from "react-router-dom"
 import { useState } from "react"
 
 const MyMenuV1 = () => {
@@ -30,17 +31,18 @@ const MyMenuV1 = () => {
                     onClose={handleCloseProfessorMenu}
                 >
                     <MenuItem
-                        onClick={
-                            ()=>{
-                                handleCloseProfessorMenu()
-                                alert("Carregando página de cadastro!")
-                            }
-                        }
+                        onClick={handleCloseProfessorMenu}
+                        component={Link}
+                        to={"cadastrarProfessor"} 
                     >
                         <Typography>Cadastrar</Typography>
                     </MenuItem>
 
-                    <MenuItem>
+                    <MenuItem
+                        onClick={handleCloseProfessorMenu}
+                        component={Link}
+                        to={"listarProfessor"} 
+                    >
                         <Typography>Listar</Typography>
                     </MenuItem>
                 </Menu>

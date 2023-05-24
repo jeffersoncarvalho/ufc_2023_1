@@ -26,11 +26,12 @@ import './App.css';
 //import Pai from './components/atividade03/questao02/Pai';
 //import Questao01 from './components/atividade04/questao01/Questao01';
 //import Signin from './components/14MUI/01Signin/Signin';
-import MyMenuV1 from './components/14MUI/02CRUD/MyMenuV1';
+//import MyMenuV1 from './components/14MUI/02CRUD/MyMenuV1';
+import MainPage from './components/14MUI/02CRUD/MainPage';
 
 function App() {
   return (
-    <MyMenuV1 />
+    <MainPage />
   );
 }
 

@@ -23,12 +23,15 @@ import './App.css';
 //import PokemonAxios from './components/10Axios/PokemonAxios';
 //import TelaPrincipal from './components/11Redux/v2/TelaPrincipal';
 //import MeuIndex from './components/11Redux/v2/MeuIndex';
-import MinhaPromessa from './components/12Promise/MinhaPromessa';
+//import MinhaPromessa from './components/12Promise/MinhaPromessa';
+//import Signin from './components/13MUI/01Signin/Signin';
+//import MyMenu from './components/13MUI/02CRUD/MyMenuV1';
+import MainPage from './components/13MUI/02CRUD/MainPage';
 
 function App() {
   return (
     <div >
-      <MinhaPromessa />    
+      <MainPage />    
     </div>
   );
 }

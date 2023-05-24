@@ -59,7 +59,7 @@ MAURICIO CAMPOS DE SOUSA - OK - https://github.com/macamp0s/prova01.git
 NATALIA BARROS DE LIMA - OK - https://codesandbox.io/s/prova-natalia-barros-de-lima-prova-1-e-forked-qbifgi?file=/src/Component/Questao02.jsx
 NATALY CAMPELO SILVA - OK - https://github.com/Naty42/PIW/tree/main/prova01
 NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw
-PAULO GUILHERME FLORIANO DA SILVA - OK
+PAULO GUILHERME FLORIANO DA SILVA - OK - NÃO ENTREGOU
 RAIMUNDO VINICIUS DA SILVA MEDEIROS - OK - https://github.com/rviniciusm/PROVA_PIW
 SAVILA LETICIA AMANCIO OLIVEIRA - OK - https://github.com/savila16/hello_world/tree/main/prova01
 TALITA JUSTINO MACIEL - OK - https://github.com/talitajmaciel/PIW_2023
