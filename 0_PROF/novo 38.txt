@@ -3,66 +3,66 @@ PRIMEIRA AVALIAÇÃO - DIA 1
 WEB - T01 (2 FALTAS) 1A
 
 ABNER ENOQUE MONTEIRO SILVA - FALTOU
-AIRTON DOUGLAS COSTA DE SOUSA - OK - https://github.com/AirtonDoug/WEBt01-AP01
-ALUIZIO LUCAS GOMES DE LIMA - OK - https://codesandbox.io/s/prova-t01-dia1-aluizio-lucas-l38fdm
-ANTONIO HERIK COSMO MARTINS - OK - https://github.com/HerikCosmo/ap1-react
-CAMILA BELMONT MESQUITA - OK - https://github.com/Mylla-Belmont/WEB/tree/master/aula_01/src/AP-01
-CARLOS CAUET FERREIRA COSTA - OK - https://github.com/cauett/AP1---Dev.-Web
-CARLOS EDUARDO GURGEL DE ALMEIDA DE CARVALHO LIMA - OK - https://codesandbox.io/s/keen-curie-bz5fhi?file=/src/components/Pontos.txt
-EDUARDO DE OLIVEIRA SOUSA - OK - https://github.com/eduardo-559/Desenvolvimento-de-software-para-web/tree/main/prova
-FRANCIEL SILVEIRA PENHA DE VASCONCELOS - OK - https://github.com/soumbra/WEB2023_1/tree/main/Prova01
-FRANCISCO VICTOR SOARES DE LIMA - OK - https://github.com/soaresWT/apweb01
-GABRIEL VIANA RAULINO - OK - http://github.com/gabrielraulino/UFC2023-WEB
-GIOVANNA MONCAYO NAKASHIMA - OK - https://github.com/gimoncayo/WEB_2023
-GUSTAVO FERNANDES SILVA - OK - https://github.com/GusFer-cmd/ProvaReact  
-GUSTAVO MARTINS SOUSA - OK - https://codesandbox.io/s/distracted-jasper-l9x5fg?file=/src/App.js
-IURY DE OLIVEIRA QUEIROZ - OK - https://github.com/Scroub/WEB2023.1/tree/main/prova
-IZAEL NUNES DO NASCIMENTO - OK - https://codesandbox.io/s/gallant-frost-pg9pjy?file=/src/prova01/quest%C3%A3o04/quest%C3%A3o4.txt
-JOSE ANDERSON OLIVEIRA DE LIMA - OK
+AIRTON DOUGLAS COSTA DE SOUSA - OK - https://github.com/AirtonDoug/WEBt01-AP01 (1,5 + 2,5 + 1,5 + 0,5 = 6)
+ALUIZIO LUCAS GOMES DE LIMA - OK - https://codesandbox.io/s/prova-t01-dia1-aluizio-lucas-l38fdm (2,5 + 2,5 + 2,5 + 0 = 7,5)
+ANTONIO HERIK COSMO MARTINS - OK - https://github.com/HerikCosmo/ap1-react (2,5 + 2,5 + 2,5 + 2,5 = 10)
+CAMILA BELMONT MESQUITA - OK - https://github.com/Mylla-Belmont/WEB/tree/master/aula_01/src/AP-01 (1,5 + 1 + 1 + 0 = 3,5)
+CARLOS CAUET FERREIRA COSTA - OK - https://github.com/cauett/AP1---Dev.-Web (2,5 + 2,5 + 0 + 2,5 = 7)
+CARLOS EDUARDO GURGEL DE ALMEIDA DE CARVALHO LIMA - OK - https://codesandbox.io/s/keen-curie-bz5fhi?file=/src/components/Pontos.txt (1,5 + 2,5 + 2,5 + 0 = 7,5)
+EDUARDO DE OLIVEIRA SOUSA - OK - https://github.com/eduardo-559/Desenvolvimento-de-software-para-web/tree/main/prova (2,5 + 2,5 + 2,5 + 2,5 = 10)
+FRANCIEL SILVEIRA PENHA DE VASCONCELOS - OK - https://github.com/soumbra/WEB2023_1/tree/main/Prova01 (1,5 + 2,5 + 0 + 2,5 = 6,5)
+FRANCISCO VICTOR SOARES DE LIMA - OK - https://github.com/soaresWT/apweb01 (2,5 + 2,5 + 2,5 + 2,5 = 10)
+GABRIEL VIANA RAULINO - OK - http://github.com/gabrielraulino/UFC2023-WEB (1,0 + 2,5 + 1,0 = 4,5)
+GIOVANNA MONCAYO NAKASHIMA - OK - https://github.com/gimoncayo/WEB_2023 (2,0 + 2,5 + 0 + 2,5 = 7)
+GUSTAVO FERNANDES SILVA - OK - https://github.com/GusFer-cmd/ProvaReact (0,5 + 0,5 + 0 + 0,5 = 1,5)
+GUSTAVO MARTINS SOUSA - OK - https://codesandbox.io/s/distracted-jasper-l9x5fg?file=/src/App.js (2,5 + 2,5 + 2,5 + 2,5 = 10)
+IURY DE OLIVEIRA QUEIROZ - OK - https://github.com/Scroub/WEB2023.1/tree/main/prova (0,0 + 2,5 + 2,0 = 4,5)
+IZAEL NUNES DO NASCIMENTO - OK - https://codesandbox.io/s/gallant-frost-pg9pjy?file=/src/prova01/quest%C3%A3o04/quest%C3%A3o4.txt (2,5 + 2 + 0 + 2,5 = 7)
+JOSE ANDERSON OLIVEIRA DE LIMA - OK - NÃO ENTREGOU - (0,0)
 JOSE MATHEUS CARLOS GUSTAVO - FALTOU
 
 WEB T03 (2 FALTAS) 1B
 
-ANDERSON LUIS BENTO SOARES - OK - http://github.com/andersonlbsoares/AP1-DSW/
-ANTONIO DEIVID SANTOS COSTA - OK - https://github.com/AntDeivid/DesenvolvimentoWEB-AP1/tree/main/web-ap1/src/components
-AUGUSTO CESAR ARAUJO DE OLIVEIRA - OK - https://github.com/augustces/desenvolvimento-web
-CARLOS GABRIEL DE CASTRO RODRIGUES - OK - https://github.com/Gabriel-CR/Desenvolvimento_Web/tree/main/PROVAS/PROVA_1/ap1
-CARLOS HENRIQUE ANDRADE DE CARVALHO - OK - https://codesandbox.io/s/primeira-avaliacao-parcial-forked-lxlhtu
-CARLOS SAMUEL SOUSA SANTOS - OK - https://github.com/carlosamuel8/desenvolcimento-web-2023.1/tree/master/atividades/src/components/prova01
-CLEILTON ALVES GUSTAVO - OK - https://github.com/CleiltonGustavo/AP01DEVWEB
-DARLAN OLIVEIRA FERREIRA - OK - https://github.com/darlanferreira1/Disciplina_Desenvolvimento_web/tree/master/src/components/21_ap1
-DAVID ALVES SOARES - OK - https://github.com/dev-david-alves/Dev-Web-UFC2023/tree/main/prova01
+ANDERSON LUIS BENTO SOARES - OK - http://github.com/andersonlbsoares/AP1-DSW/ (2,5 + 2,5 + 2,5 + 2,5 = 10)
+ANTONIO DEIVID SANTOS COSTA - OK - https://github.com/AntDeivid/DesenvolvimentoWEB-AP1/tree/main/web-ap1/src/components (2,5 + 2,5 + 2,5 + 2,5 = 10)
+AUGUSTO CESAR ARAUJO DE OLIVEIRA - OK - https://github.com/augustces/desenvolvimento-web (2 + 2,5 + 2,5 + 2,5 = 9,5)
+CARLOS GABRIEL DE CASTRO RODRIGUES - OK - https://github.com/Gabriel-CR/Desenvolvimento_Web/tree/main/PROVAS/PROVA_1/ap1 (2,5 + 2,5 + 2,5 + 2,5 = 10)
+CARLOS HENRIQUE ANDRADE DE CARVALHO - OK - https://codesandbox.io/s/primeira-avaliacao-parcial-forked-lxlhtu (2,5 + 2,5 + 0 + 2,5 = 7,5)
+CARLOS SAMUEL SOUSA SANTOS - OK - https://github.com/carlosamuel8/desenvolcimento-web-2023.1/tree/master/atividades/src/components/prova01 (2 + 2,5 + 2,5 + 2,5 = 9,5)
+CLEILTON ALVES GUSTAVO - OK - https://github.com/CleiltonGustavo/AP01DEVWEB (0 + 2,5 + 0 + 2,5 = 5)
+DARLAN OLIVEIRA FERREIRA - OK - https://github.com/darlanferreira1/Disciplina_Desenvolvimento_web/tree/master/src/components/21_ap1 (2,5 + 2,5 + 2,5 + 2,5 = 10)
+DAVID ALVES SOARES - OK - https://github.com/dev-david-alves/Dev-Web-UFC2023/tree/main/prova01 (2,5 + 2,5 + 2,5 + 2,5 = 10)
 DAVI JOSE LIMA DE SOUSA - FALTOU
-ELIZADORA MENDONCA DA SILVA - OK - https://github.com/elizadora/Desenvolvimento-Web/tree/main/introducao/src/provas/ap1
-EMANUELLE TORRES DE CARVALHO - OK - https://github.com/emanuelletorress/web-disciplina/tree/main/prova-t03-dia1
-ENGRID BRUNA ROCHA DOS SANTOS - OK - https://github.com/01Bruna11/DEVWEB_2023.1
-EVELINE PEREIRA SANTIAGO - OK - https://github.com/EvelineSantiago/WEBT03
-EZEQUIEL DOS SANTOS MELO - OK - https://github.com/ezequielsan/Web-Development
+ELIZADORA MENDONCA DA SILVA - OK - https://github.com/elizadora/Desenvolvimento-Web/tree/main/introducao/src/provas/ap1 (2,5 + 2,5 + 2,5 + 1,5 = 9)
+EMANUELLE TORRES DE CARVALHO - OK - https://github.com/emanuelletorress/web-disciplina/tree/main/prova-t03-dia1 (1 + 1 + 0 + 2 = 4)
+ENGRID BRUNA ROCHA DOS SANTOS - OK - https://github.com/01Bruna11/DEVWEB_2023.1 (2 + 2,5 + 2,5 + 2,5 = 9,5)
+EVELINE PEREIRA SANTIAGO - OK - https://github.com/EvelineSantiago/WEBT03 (2 + 2,5 + 2,5 + 2,5 = 9,5)
+EZEQUIEL DOS SANTOS MELO - OK - https://github.com/ezequielsan/Web-Development (2,5 + 2,5 + 2,5 + 2,5 = 10)
 FILLIPE LEORNES BRUNO E SILVA - FALTOU
-FRANCISCO BRENO DA SILVEIRA - OK - https://github.com/FrBreno/Dev_Web_Avaliacoes/tree/main/Avaliacao_01/src/components
-FRANCISCO FAGNER FERREIRA MESQUITA - OK - https://github.com/fagner02/test-web
-FRANCISCO GUSTAVO MARTINS DE SOUSA - OK - https://github.com/gus-martins/web-development/tree/main/prova_AP1
-FRANCISCO NUNES CAVALCANTE JUNIOR - OK - https://codesandbox.io/s/still-sea-n5bpdg?file=/src/App.js
+FRANCISCO BRENO DA SILVEIRA - OK - https://github.com/FrBreno/Dev_Web_Avaliacoes/tree/main/Avaliacao_01/src/components (2,5 + 2,5 + 2,5 + 2,5 = 10)
+FRANCISCO FAGNER FERREIRA MESQUITA - OK - https://github.com/fagner02/test-web (2,5 + 2,5 + 2,5 + 2,5 = 10)
+FRANCISCO GUSTAVO MARTINS DE SOUSA - OK - https://github.com/gus-martins/web-development/tree/main/prova_AP1 (2,5 + 2,5 + 2 + 2,5 = 10)
+FRANCISCO NUNES CAVALCANTE JUNIOR - OK - https://codesandbox.io/s/still-sea-n5bpdg?file=/src/App.js (1,5 + 2,0 + 1 + 2 = 6,5)
 
 PIW - T01 (5 FALTAS) 1C
 
 ALESSANDRO FREITAS MENDES JUNIOR - FALTOU
-ANDERSON OLIVEIRA RABELO - OK - https://github.com/AndersonOliveira06/Ap1
-ANNA JULIA ABREU LIMA DE SOUZA - OK - https://github.com/annajuliabreu/ap1
-ANTONIO DAVI DE LIMA CAVALCANTE - OK - https://codesandbox.io/s/ap1-piw-4gpgfd?file=/pontos.txt
-ANTONIO GUILHERME MENDES SAMPAIO - OK - https://github.com/guilhermemen/PIW_2023_1/tree/main/AP01 
+ANDERSON OLIVEIRA RABELO - OK - https://github.com/AndersonOliveira06/Ap1 (2,5 + 2,5 + 2 + 2,5 = 9,5)
+ANNA JULIA ABREU LIMA DE SOUZA - OK - https://github.com/annajuliabreu/ap1 (0 + 2,5 + 0 + 2,5 = 5)
+ANTONIO DAVI DE LIMA CAVALCANTE - OK - https://codesandbox.io/s/ap1-piw-4gpgfd?file=/pontos.txt (1,5 + 2,5 + 2,5 + 2 = 8,5)
+ANTONIO GUILHERME MENDES SAMPAIO - OK - https://github.com/guilhermemen/PIW_2023_1/tree/main/AP01 (0,5 + 2,5 + 1 + 2,5 = 6,5)
 ARIADNE COELHO DE FREITAS - FALTOU
-DAVID YVINIS MARTINS DE QUEIROZ - OK -  https://github.com/DavidYvinis/PIW2023.1
-DIEGO DE SOUSA MOREIRA - OK - https://github.com/moreir4x/PIW-2023
-EDOARDO LEITAO NOGUEIRA - OK - https://github.com/edozera/Prova01_PIW_20231
-EMELI GABRIELA CASEMIRO ADERALDO - OK - https://github.com/emeliaderaldo/piwpiw1
-FRANCISCO DAS CHAGAS MOREIRA CATUNDA NETO - OK - https://github.com/MoreiraFrancisco/Prova-PIW
+DAVID YVINIS MARTINS DE QUEIROZ - OK -  https://github.com/DavidYvinis/PIW2023.1 (2 + 2,5 + 1 + 2,5 = 8)
+DIEGO DE SOUSA MOREIRA - OK - https://github.com/moreir4x/PIW-2023 (1 + 2,5 + 2,5 + 2,5 = 8,5)
+EDOARDO LEITAO NOGUEIRA - OK - https://github.com/edozera/Prova01_PIW_20231 (PRIVADO)
+EMELI GABRIELA CASEMIRO ADERALDO - OK - https://github.com/emeliaderaldo/piwpiw1 (1,5 + 2,5 + 2,5 + 2,5 = 9)
+FRANCISCO DAS CHAGAS MOREIRA CATUNDA NETO - OK - https://github.com/MoreiraFrancisco/Prova-PIW (1,5 + 2,5 + 2,5 + 2,5 = 9)
 GABRIEL LEITAO DE ANDRADE - FALTOU
-GUILHERME SOUZA GAMAL - OK - https://github.com/GamalOficial/Piw 
-HERON VERISSIMO DE SOUZA - OK - https://github.com/eromeromerom/provaPIW.git
-HUGO MACIEL COELHO - OK - https://github.com/RPGhugo/Prova1-PIW
+GUILHERME SOUZA GAMAL - OK - https://github.com/GamalOficial/Piw (1 + 2,5 + 0,0 + 2,5 = 6,0)
+HERON VERISSIMO DE SOUZA - OK - https://github.com/eromeromerom/provaPIW.git (2,5 + 2,5 + 2,5 = 7,5)
+HUGO MACIEL COELHO - OK - https://github.com/RPGhugo/Prova1-PIW (2,5 + 2,5 + 2,5 + 2,5 = 10)
 HYAGO DE SOUSA CORREIA - OK - ENTREGOU EM BRANCO
-JEFFERSON CLAUDIO DANTAS UCHOA - OK - https://github.com/GooglyEy3s/PIW/tree/main/Provas/Primeira%20Avalia%C3%A7%C3%A3o
+JEFFERSON CLAUDIO DANTAS UCHOA - OK - https://github.com/GooglyEy3s/PIW/tree/main/Provas/Primeira%20Avalia%C3%A7%C3%A3o (PRIVADO)
 JULIANA APARECIDA COELHO DA SILVA - OK - NÃO ENTREGOU
 JULIANA SOUSA BARRETO - FALTOU
 KAIQUE JORGE DA SILVA - FALTOU

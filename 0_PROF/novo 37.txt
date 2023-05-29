@@ -55,13 +55,13 @@ MARIA LUISA SANTOS PITOMBEIRA - FALTOU
 MARIA RITA LIMA PEREIRA - OK - ARQUIVO
 MARISANGELA DE SOUSA LIMA - OK - https://github.com/Marisangela1802/ProvaPiw
 MAURICIO ANTONIO MARTINS CRUZ - OK - https://github.com/MauricioAMCruz/PiwAP1
-MAURICIO CAMPOS DE SOUSA - OK - https://github.com/macamp0s/prova01.git
-NATALIA BARROS DE LIMA - OK - https://codesandbox.io/s/prova-natalia-barros-de-lima-prova-1-e-forked-qbifgi?file=/src/Component/Questao02.jsx
-NATALY CAMPELO SILVA - OK - https://github.com/Naty42/PIW/tree/main/prova01
-NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw
+MAURICIO CAMPOS DE SOUSA - OK - https://github.com/macamp0s/prova01.git (1,5 + 1,5 + 0 + 2,5 = 5,5)
+NATALIA BARROS DE LIMA - OK - https://codesandbox.io/s/prova-natalia-barros-de-lima-prova-1-e-forked-qbifgi?file=/src/Component/Questao02.jsx (1,5 + 1,5 + 0 + 2 = 5)
+NATALY CAMPELO SILVA - OK - https://github.com/Naty42/PIW/tree/main/prova01 (2,5 + 2,5 + 1 + 2,5 = 8,5)
+NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw (1,0 + 2,5 + 1,5 + 1,5 = 6,5)
 PAULO GUILHERME FLORIANO DA SILVA - OK - NÃO ENTREGOU
-RAIMUNDO VINICIUS DA SILVA MEDEIROS - OK - https://github.com/rviniciusm/PROVA_PIW
-SAVILA LETICIA AMANCIO OLIVEIRA - OK - https://github.com/savila16/hello_world/tree/main/prova01
-TALITA JUSTINO MACIEL - OK - https://github.com/talitajmaciel/PIW_2023
-VIVIAN PEDROSA MOREIRA PEREIRA - OK - https://github.com/vizahi/Piw-Prova
-YURI SILVA DE LIMA - OK - https://github.com/yuri-L1ma/PIW/tree/master/src/components/provaPIW
+RAIMUNDO VINICIUS DA SILVA MEDEIROS - OK - https://github.com/rviniciusm/PROVA_PIW (0 + 2,5 + 2,5 + 2,5 = 7,5)
+SAVILA LETICIA AMANCIO OLIVEIRA - OK - https://github.com/savila16/hello_world/tree/main/prova01 (2 + 2 + 0 + 2,5 = 6,5)
+TALITA JUSTINO MACIEL - OK - https://github.com/talitajmaciel/PIW_2023 - SEM ACESSO
+VIVIAN PEDROSA MOREIRA PEREIRA - OK - https://github.com/vizahi/Piw-Prova (2 + 2 + 2,5 + 2,0 = 8,5)
+YURI SILVA DE LIMA - OK - https://github.com/yuri-L1ma/PIW/tree/master/src/components/provaPIW (2,5 + 2,5 + 2,5 2,5 = 10)
