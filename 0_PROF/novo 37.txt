@@ -2,14 +2,14 @@ PRIMEIRA AVALIAÇAO - DIA 2
 
 WEB T01 (2 FALTAS) 1D
 
-KALMAX DOS SANTOS SOUSA - OK - https://github.com/kalmax-sousa/UFC_WEB_2023.1/tree/main/01-react/ap1-web
-LETICIA PINHEIRO DE OLIVEIRA - OK - https://github.com/leticiaacx/Intro_Web/tree/master/src/components/Prova01
-LUCAS MAURÍCIO BRAGA - OK - https://github.com/LuksMB/ap1
-LUCAS TITO SAMPAIO - OK - https://github.com/Lucas-Tito/Learning-To-Code/tree/master/CollegeCode/WebDevelopment/test1
-MATHEUS DOS SANTOS MENDES - OK - https://codesandbox.io/s/eloquent-haslett-z71np2
+KALMAX DOS SANTOS SOUSA - OK - https://github.com/kalmax-sousa/UFC_WEB_2023.1/tree/main/01-react/ap1-web - 10
+LETICIA PINHEIRO DE OLIVEIRA - OK - https://github.com/leticiaacx/Intro_Web/tree/master/src/components/Prova01 - 10
+LUCAS MAURÍCIO BRAGA - OK - https://github.com/LuksMB/ap1 - 9
+LUCAS TITO SAMPAIO - OK - https://github.com/Lucas-Tito/Learning-To-Code/tree/master/CollegeCode/WebDevelopment/test1 - 10
+MATHEUS DOS SANTOS MENDES - OK - https://codesandbox.io/s/eloquent-haslett-z71np2 - 7,5
 MICAELE DE OLIVEIRA DA SILVA - FALTOU
-MURILO DOS SANTOS CUNHA - OK - https://github.com/lorddaoceania/ProvaWEBDEV
-NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw (REPETIR)
+MURILO DOS SANTOS CUNHA - OK - https://github.com/lorddaoceania/ProvaWEBDEV - 10
+NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw (REPETIR) - 8,0
 PAULO GLEIDSON LEITAO SAMPAIO - FALTOU
 PAULO HENRIQUE DE OLIVEIRA SOUSA - OK - https://github.com/ph3paulo/ProvaWeb
 PEDRO RIVALDO TABOSA SILVA - OK - https://github.com/pedrorivald/web_ufc/
@@ -45,20 +45,20 @@ RENE ARRAES VIEIRA JUNIOR - FALTOU
 
 PIW - T01 (1 FALTA) 1E 
 
-LARA MARIA TEIXEIRA LEONCIO - OK - https://codesandbox.io/s/prova-912c2r?file=/src/PONTOS.txt
-LARISSA UCHOA DE ARAUJO - OK - https://github.com/laraujo434046/Prova_1-E
-LUCAS GADELHA FONSECA - OK - https://github.com/Lucas-Gadelha/PIW-2023.1.git
-LUIS EDUARDO ALMEIDA SARAIVA - OK - https://github.com/Edusav/piw/tree/f980b87db9cdae85adbc246da51b426d28b4b942
-LUIS GUILHERME VIANA FERNANDES - OK - https://github.com/LuisGuilherme26/Prova-1-E.git
+LARA MARIA TEIXEIRA LEONCIO - OK - https://codesandbox.io/s/prova-912c2r?file=/src/PONTOS.txt (0,0)
+LARISSA UCHOA DE ARAUJO - OK - https://github.com/laraujo434046/Prova_1-E (2,5 + 2,5 + 2,5 + 2,5 = 10)
+LUCAS GADELHA FONSECA - OK - https://github.com/Lucas-Gadelha/PIW-2023.1.git (2,5 + 2,5 + 2,5 + 2,5 = 10)
+LUIS EDUARDO ALMEIDA SARAIVA - OK - https://github.com/Edusav/piw/tree/f980b87db9cdae85adbc246da51b426d28b4b942 (0 + 2,5 + 2,5 + 2,5 = 7,5)
+LUIS GUILHERME VIANA FERNANDES - OK - https://github.com/LuisGuilherme26/Prova-1-E.git (1 + 2,5 + 1 + 2,5 = 7)
 MARIA CLARA RODRIGUES ALVES - OK - NÃO ENTREGOU
 MARIA LUISA SANTOS PITOMBEIRA - FALTOU
 MARIA RITA LIMA PEREIRA - OK - ARQUIVO
-MARISANGELA DE SOUSA LIMA - OK - https://github.com/Marisangela1802/ProvaPiw
-MAURICIO ANTONIO MARTINS CRUZ - OK - https://github.com/MauricioAMCruz/PiwAP1
+MARISANGELA DE SOUSA LIMA - OK - https://github.com/Marisangela1802/ProvaPiw (1 + 2,5 + 2,5 +2,5 = 8,5)
+MAURICIO ANTONIO MARTINS CRUZ - OK - https://github.com/MauricioAMCruz/PiwAP1 (2,5 + 2,5 + 2,5 + 2,5 = 10)
 MAURICIO CAMPOS DE SOUSA - OK - https://github.com/macamp0s/prova01.git (1,5 + 1,5 + 0 + 2,5 = 5,5)
 NATALIA BARROS DE LIMA - OK - https://codesandbox.io/s/prova-natalia-barros-de-lima-prova-1-e-forked-qbifgi?file=/src/Component/Questao02.jsx (1,5 + 1,5 + 0 + 2 = 5)
 NATALY CAMPELO SILVA - OK - https://github.com/Naty42/PIW/tree/main/prova01 (2,5 + 2,5 + 1 + 2,5 = 8,5)
-NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw (1,0 + 2,5 + 1,5 + 1,5 = 6,5)
+NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw (1,0 + 2,5 + 1,5 + 1,5 = 8)
 PAULO GUILHERME FLORIANO DA SILVA - OK - NÃO ENTREGOU
 RAIMUNDO VINICIUS DA SILVA MEDEIROS - OK - https://github.com/rviniciusm/PROVA_PIW (0 + 2,5 + 2,5 + 2,5 = 7,5)
 SAVILA LETICIA AMANCIO OLIVEIRA - OK - https://github.com/savila16/hello_world/tree/main/prova01 (2 + 2 + 0 + 2,5 = 6,5)

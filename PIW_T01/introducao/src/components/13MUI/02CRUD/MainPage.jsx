@@ -14,7 +14,7 @@ const MainPage = () => {
                 <Routes>
                     <Route path="cadastrarProfessor" element={<CadastrarProfessor/>}/>
                     <Route path="listarProfessor" element={<ListarProfessor/>}/>
-                    <Route path="editarProfessor" element={<EditarProfessor/>}/>
+                    <Route path="editarProfessor/:id" element={<EditarProfessor/>}/>
                 </Routes>     
             </Container>
         </BrowserRouter>

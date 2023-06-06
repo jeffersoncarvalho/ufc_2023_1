@@ -5,20 +5,44 @@ import EditIcon from "@mui/icons-material/Edit"
 import { styled } from '@mui/material/styles';
 import { tableCellClasses } from '@mui/material/TableCell';
 import { Link } from "react-router-dom"
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Listar = () => {
 
-    const professores = [
+    /*const professores = [
         { id: 0, nome: "Vito Corleone", curso: "SI", titulacao: "MEST" },
         { id: 1, nome: "Michael Corleone", curso: "DD", titulacao: "GRAD" },
         { id: 2, nome: "Luca Brasi", curso: "SI", titulacao: "MEST" },
         { id: 3, nome: "Kay Adams", curso: "SI", titulacao: "DOUT" },
         { id: 4, nome: "Peter Clemenza", curso: "CC", titulacao: "MEST" }
-    ]
+    ]*/
+    const [professores,setProfessores] = useState([])
+
+    useEffect(
+        ()=>{
+            axios.get("http://localhost:3005/professores/listar")
+            .then(
+                (response)=>{
+                    //console.log(response)
+                    setProfessores(response.data)
+                }
+            )
+            .catch(error=>console.log(error))
+        }
+        ,
+        []
+    )
 
     function deleteProfessorById(id) {
         if(window.confirm("Deseja Excluir?")){
-            alert("Professor " + id + " excluído com sucesso!")
+            //alert("Professor " + id + " excluído com sucesso!")
+            axios.delete(`http://localhost:3005/professores/remover/${id}`)
+            .then((response)=>{
+                const resultado = professores.filter(prof => prof.id != id)
+                setProfessores(resultado)
+            })
+            .catch(error=>console.log(error))
         }
     }
 
