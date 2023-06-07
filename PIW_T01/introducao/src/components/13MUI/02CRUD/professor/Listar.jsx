@@ -36,7 +36,15 @@ const Listar = () => {
 
     function deleteProfessorById(id){
         if(window.confirm("Deseja Excluir?")){
-            alert("Professor " + id + " Excluído!")
+            //alert("Professor " + id + " Excluído!")
+            axios.delete(`http://localhost:3001/professores/remover/${id}`)
+            .then(
+                (response)=>{
+                    const resultado = professores.filter( professor => professor.id != id)
+                    setProfessores(resultado)
+                }
+            )
+            .catch(error=>console.log(error))
         }
     }
 

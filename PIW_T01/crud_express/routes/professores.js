@@ -9,4 +9,36 @@ router.get(
     }
 );
 
+router.post(
+    '/cadastrar',
+     function(req, res, next) {
+        let professor = professorService.register(req.body)
+        res.json(professor)
+    }
+);
+
+router.get(
+    '/recuperar/:id',
+     function(req, res, next) {
+        let professor = professorService.retrieve(req.params.id)
+        res.json(professor)
+    }
+);
+
+router.put(
+    '/atualizar/:id',
+     function(req, res, next) {
+        let professor = professorService.update(req.params.id,req.body)
+        res.json(professor)
+    }
+);
+
+router.delete(
+    '/remover/:id',
+     function(req, res, next) {
+        let resposta = professorService.delete(req.params.id)
+        res.json({"RES":resposta})
+    }
+);
+
 module.exports = router;
