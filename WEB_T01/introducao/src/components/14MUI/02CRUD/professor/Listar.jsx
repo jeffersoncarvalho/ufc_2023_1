@@ -77,7 +77,7 @@ const Listar = () => {
 
     function deleteTeste(id) {
         for (let i = 0; i < professores.length; i++) {
-            if (professores[i].id == id) {
+            if (professores[i]._id == id) {
                 professores.splice(i, 1);
                 return true;
             }
@@ -108,14 +108,14 @@ const Listar = () => {
                             professores.map(
                                 (professor) => {
                                     return (
-                                        <StyledTableRow key={professor.id}>
-                                            <StyledTableCell>{professor.id}</StyledTableCell>
+                                        <StyledTableRow key={professor._id}>
+                                            <StyledTableCell>{professor._id}</StyledTableCell>
                                             <StyledTableCell>{professor.nome}</StyledTableCell>
                                             <StyledTableCell>{professor.curso}</StyledTableCell>
                                             <StyledTableCell>{professor.titulacao}</StyledTableCell>
                                             <StyledTableCell>
                                                 <Box sx={{ display: "flex", justifyContent: "center" }}>
-                                                    <IconButton aria-label="delete" color="primary" onClick={() => deleteProfessor(professor.id)}>
+                                                    <IconButton aria-label="delete" color="primary" onClick={() => deleteProfessor(professor._id)}>
                                                         <DeleteIcon />
                                                     </IconButton>
                                                     <IconButton
@@ -123,7 +123,7 @@ const Listar = () => {
                                                         color="primary"
                                                         sx={{ ml: 2 }}
                                                         component={Link}
-                                                        to={`/editarProfessor/${professor.id}`}
+                                                        to={`/editarProfessor/${professor._id}`}
                                                     >
                                                         <EditIcon />
                                                     </IconButton>

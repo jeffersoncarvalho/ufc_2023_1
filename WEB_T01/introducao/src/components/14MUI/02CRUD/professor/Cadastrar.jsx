@@ -23,7 +23,7 @@ const Cadastrar = () => {
         axios.post("http://localhost:3001/professor/register",novoProfessor)
         .then(
             (response)=>{
-                alert(`Professor ID ${response.data.id} adicionado!`)
+                alert(`Professor ID ${response.data._id} adicionado!`)
                 navigate("/listarProfessor")
             }
         )

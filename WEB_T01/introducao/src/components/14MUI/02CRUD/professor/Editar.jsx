@@ -66,7 +66,7 @@ const Editar = () => {
         axios.put(`http://localhost:3001/professor/update/${id}`,professorAtualizado)
         .then(
             (response)=>{
-                alert(`Professor ID ${response.data.id} atualizado!`)
+                alert(`Professor ID ${response.data._id} atualizado!`)
                 navigate("/listarProfessor")
             }
         )

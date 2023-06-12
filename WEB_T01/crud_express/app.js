@@ -3,6 +3,8 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
+require("./db/mongo.connection")
+
 var users = require('./routes/users');
 var professores = require("./routes/professores")
 

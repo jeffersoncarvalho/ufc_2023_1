@@ -17,7 +17,7 @@ const Cadastrar = () => {
         const professor = {nome,curso,titulacao,ai}
         axios.post("http://localhost:3005/professores/cadastrar",professor)
         .then((response)=>{
-            alert(`Professor ID ${response.data.id} adicionado com sucesso!`)
+            alert(`Professor ID ${response.data._id} adicionado com sucesso!`)
             navigate("/listarProfessor")
         })
         .catch(error=>console.log(error))
