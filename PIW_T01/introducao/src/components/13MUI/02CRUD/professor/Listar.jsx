@@ -35,12 +35,12 @@ const Listar = () => {
     )
 
     function deleteProfessorById(id){
-        if(window.confirm("Deseja Excluir?")){
+        if(window.confirm("Deseja Excluir? " + id)){
             //alert("Professor " + id + " Excluído!")
             axios.delete(`http://localhost:3001/professores/remover/${id}`)
             .then(
                 (response)=>{
-                    const resultado = professores.filter( professor => professor.id != id)
+                    const resultado = professores.filter( professor => professor._id != id)
                     setProfessores(resultado)
                 }
             )
@@ -69,17 +69,17 @@ const Listar = () => {
                             professores.map(
                                 (professor) => {
                                     return (
-                                        <StyledTableRow key={professor.id}>
-                                            <StyledTableCell>{professor.id}</StyledTableCell>
+                                        <StyledTableRow key={professor._id}>
+                                            <StyledTableCell>{professor._id}</StyledTableCell>
                                             <StyledTableCell>{professor.nome}</StyledTableCell>
                                             <StyledTableCell>{professor.curso}</StyledTableCell>
                                             <StyledTableCell>{professor.titulacao}</StyledTableCell>
                                             <StyledTableCell>
                                                 <Box>
-                                                    <IconButton aria-label="edit" component={Link} to={`/editarProfessor/${professor.id}`}>
+                                                    <IconButton aria-label="edit" component={Link} to={`/editarProfessor/${professor._id}`}>
                                                         <EditIcon />
                                                     </IconButton>
-                                                    <IconButton aria-label="delete" onClick={()=>deleteProfessorById(professor.id)}>
+                                                    <IconButton aria-label="delete" onClick={()=>deleteProfessorById(professor._id)}>
                                                         <DeleteIcon />
                                                     </IconButton>
                                                 </Box>

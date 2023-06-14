@@ -148,7 +148,7 @@ const Editar = () => {
                         type="submit"
                         sx={{ mb: 2 }}
                     >
-                        Atualiziar
+                        Atualizar
                     </Button>
                 </Box>
             </Box>
