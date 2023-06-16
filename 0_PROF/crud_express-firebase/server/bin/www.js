@@ -4,23 +4,29 @@
  * Module dependencies.
  */
 
-var app = require('../app');
-var debug = require('debug')('crud-expressv1:server');
-var http = require('http');
+import app from '../app';
+import debugLib from 'debug';
+import http from 'http';
+const debug = debugLib('crud-express-prof:server');
+
+/*var app = require('../app');
+var debug = require('debug')('crud-express-prof:server');
+var http = require('http');*/
 
 /**
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3005');
+var port = normalizePort(process.env.PORT || '3001');
 app.set('port', port);
+
 
 /**
  * Create HTTP server.
  */
 
 var server = http.createServer(app);
-console.log(`Server is up and running on ${port}!`)
+console.log("Expresse Server Running on Port " + port)
 
 /**
  * Listen on provided port, on all network interfaces.
