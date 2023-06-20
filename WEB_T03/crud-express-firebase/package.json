@@ -1,0 +1,45 @@
+{
+  "name": "crud-express-firebase",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run dev",
+    "transpile": "babel ./server --out-dir dist-server",
+    "clean": "rimraf dist-server",
+    "build": "npm-run-all clean transpile",
+    "server": "node ./dist-server/bin/www",
+    "dev": "SET NODE_ENV=development & npm-run-all build server",
+    "prod": "SET NODE_ENV=production & npm-run-all build server",
+    "watch:dev": "nodemon"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.22.5",
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "firebase": "^9.22.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.22",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^5.0.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "nodemonConfig": {
+    "exec": "npm run dev",
+    "watch": [
+      "server/*",
+      "public/*"
+    ],
+    "ignore": [
+      "**/__tests__/**",
+      "*.test.js",
+      "*.spec.js"
+    ]
+  }
+}

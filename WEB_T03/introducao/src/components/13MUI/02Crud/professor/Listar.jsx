@@ -21,6 +21,7 @@ const Listar = () => {
 
     useEffect(
         ()=>{
+            
             axios.get("http://localhost:3005/professores/listar")
             .then(
                 (response)=>{
