@@ -43,6 +43,90 @@ var ProfessoresService = /*#__PURE__*/function () {
         return console.log(error);
       });
     }
+  }, {
+    key: "register",
+    value: function register(request, response) {
+      //const docRef = await addDoc(collection(db,"professores"))
+      (0, _firestore.addDoc)((0, _firestore.collection)(_firebase["default"], "professores"), request.body).then(function (docRef) {
+        response.json({
+          _id: docRef.id
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "retrieve",
+    value: function retrieve(request, response) {
+      var docRef = (0, _firestore.doc)(_firebase["default"], "professores", request.params.id);
+      //const docSnap = await getDoc(docRef);
+      (0, _firestore.getDoc)(docRef).then(function (docSnap) {
+        var _id = docSnap.id;
+        var _docSnap$data = docSnap.data(),
+          nome = _docSnap$data.nome,
+          curso = _docSnap$data.curso,
+          titulacao = _docSnap$data.titulacao,
+          ai = _docSnap$data.ai;
+        response.json({
+          _id: _id,
+          nome: nome,
+          curso: curso,
+          titulacao: titulacao,
+          ai: ai
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "update",
+    value: function update(request, response) {
+      var docRef = (0, _firestore.doc)(_firebase["default"], "professores", request.params.id);
+      (0, _firestore.updateDoc)(docRef, request.body).then(function () {
+        response.json({
+          _id: request.params.id
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "delete",
+    value: function _delete(request, response) {
+      var docRef = (0, _firestore.doc)(_firebase["default"], "professores", request.params.id);
+      (0, _firestore.deleteDoc)(docRef).then(function () {
+        return response.json({
+          res: true
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "listOnSnapshot",
+    value: function listOnSnapshot(request, response) {
+      var q = (0, _firestore.query)((0, _firestore.collection)(_firebase["default"], "professores"));
+      (0, _firestore.onSnapshot)(q, function (querySnapshot) {
+        var professores = [];
+        querySnapshot.forEach(function (professor) {
+          var _id = professor.id;
+          var _professor$data = professor.data(),
+            nome = _professor$data.nome,
+            curso = _professor$data.curso,
+            titulacao = _professor$data.titulacao,
+            ai = _professor$data.ai;
+          professores.push({
+            _id: _id,
+            nome: nome,
+            curso: curso,
+            titulacao: titulacao,
+            ai: ai
+          });
+        }); //forEach
+        response.json(professores);
+      } //querySnapshot
+      ); //onSnapshot
+    }
   }]);
   return ProfessoresService;
 }();

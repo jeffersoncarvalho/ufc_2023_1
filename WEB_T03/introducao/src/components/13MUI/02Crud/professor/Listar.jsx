@@ -18,6 +18,7 @@ const Listar = () => {
         { id: 4, nome: "Peter Clemenza", curso: "CC", titulacao: "MEST" }
     ]*/
     const [professores,setProfessores] = useState([])
+    let contador = 1;
 
     useEffect(
         ()=>{
@@ -65,11 +66,12 @@ const Listar = () => {
                     </TableHead>
                     <TableBody>
                         {
+                            
                             professores.map(
                                 (professor) => {
                                     return (
                                         <StyledTableRow key={professor._id}>
-                                            <StyledTableCell>{professor._id}</StyledTableCell>
+                                            <StyledTableCell>{contador++}</StyledTableCell>
                                             <StyledTableCell>{professor.nome}</StyledTableCell>
                                             <StyledTableCell>{professor.curso}</StyledTableCell>
                                             <StyledTableCell>{professor.titulacao}</StyledTableCell>

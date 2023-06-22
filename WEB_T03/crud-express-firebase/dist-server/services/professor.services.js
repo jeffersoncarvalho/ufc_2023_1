@@ -43,6 +43,59 @@ var ProfessorServices = /*#__PURE__*/function () {
         return console.log(error);
       });
     }
+  }, {
+    key: "register",
+    value: function register(request, response) {
+      (0, _firestore.addDoc)((0, _firestore.collection)(_firebase["default"], "professores"), request.body).then(function (professor) {
+        response.json({
+          _id: professor.id
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "retrieve",
+    value: function retrieve(request, response) {
+      var docRef = (0, _firestore.doc)(_firebase["default"], "professores", request.params.id);
+      (0, _firestore.getDoc)(docRef).then(function (professor) {
+        var res = {
+          _id: professor.id,
+          nome: professor.data().nome,
+          curso: professor.data().curso,
+          titulacao: professor.data().titulacao,
+          ai: professor.data().ai
+        };
+        response.json(res);
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "update",
+    value: function update(request, response) {
+      var docRef = (0, _firestore.doc)(_firebase["default"], "professores", request.params.id);
+      (0, _firestore.updateDoc)(docRef, request.body).then(function () {
+        //atualizou
+        response.json({
+          _id: request.params.id
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
+  }, {
+    key: "delete",
+    value: function _delete(request, response) {
+      var docRef = (0, _firestore.doc)(_firebase["default"], "professores", request.params.id);
+      (0, _firestore.deleteDoc)(docRef).then(function () {
+        response.json({
+          _id: request.params.id
+        });
+      })["catch"](function (error) {
+        return console.log(error);
+      });
+    }
   }]);
   return ProfessorServices;
 }();
