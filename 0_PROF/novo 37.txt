@@ -11,14 +11,14 @@ MICAELE DE OLIVEIRA DA SILVA - FALTOU
 MURILO DOS SANTOS CUNHA - OK - https://github.com/lorddaoceania/ProvaWEBDEV - 10
 NATHAN DOS SANTOS DA SILVA - OK - https://github.com/ntn-ss/Desenvolvimento-de-Software-para-Web/tree/main/prova-dsw (REPETIR) - 8,0
 PAULO GLEIDSON LEITAO SAMPAIO - FALTOU
-PAULO HENRIQUE DE OLIVEIRA SOUSA - OK - https://github.com/ph3paulo/ProvaWeb
-PEDRO RIVALDO TABOSA SILVA - OK - https://github.com/pedrorivald/web_ufc/
-ROBSON JOSE DIAS VENANCIO - OK - https://github.com/Robsu66/Prova1Web2023
-RODRIGO SILVA COELHO - OK - https://github.com/Rozdrigo/provaweb2023.1
-RUBENS CAUAN FIGUEREDO DE CASTRO - OK - https://github.com/Rubenscauan/DesenvolvimentoWeb/tree/aulas/src/components/Avalia%C3%A7%C3%A3oParcial01
-SAMUEL COSTA DO NASCIMENTO - OK - https://github.com/samuelc-dev/ProvaDevWeb2023
-VANESSA DE OLIVEIRA LIMA - OK - https://github.com/vnessalima/PrimeiraProvaWeb/tree/main
-VITTOR DE MORAIS MELO - OK - https://github.com/VittorMe/AVALIACAO-PARCIAL-D
+PAULO HENRIQUE DE OLIVEIRA SOUSA - OK - https://github.com/ph3paulo/ProvaWeb - 6
+PEDRO RIVALDO TABOSA SILVA - OK - https://github.com/pedrorivald/web_ufc/ - 10
+ROBSON JOSE DIAS VENANCIO - OK - https://github.com/Robsu66/Prova1Web2023 - 9,5
+RODRIGO SILVA COELHO - OK - https://github.com/Rozdrigo/provaweb2023.1 - 10
+RUBENS CAUAN FIGUEREDO DE CASTRO - OK - https://github.com/Rubenscauan/DesenvolvimentoWeb/tree/aulas/src/components/Avalia%C3%A7%C3%A3oParcial01 - PRIVADO
+SAMUEL COSTA DO NASCIMENTO - OK - https://github.com/samuelc-dev/ProvaDevWeb2023 - 10
+VANESSA DE OLIVEIRA LIMA - OK - https://github.com/vnessalima/PrimeiraProvaWeb/tree/main - 9
+VITTOR DE MORAIS MELO - OK - https://github.com/VittorMe/AVALIACAO-PARCIAL-D - 10
 
 WEB T03 (3 FALTAS) 1F
 
@@ -45,7 +45,7 @@ RENE ARRAES VIEIRA JUNIOR - FALTOU
 
 PIW - T01 (1 FALTA) 1E 
 
-LARA MARIA TEIXEIRA LEONCIO - OK - https://codesandbox.io/s/prova-912c2r?file=/src/PONTOS.txt (0,0)
+LARA MARIA TEIXEIRA LEONCIO - OK - https://codesandbox.io/s/prova-912c2r?file=/src/PONTOS.txt (0,0) - PROVA EM BRANCO
 LARISSA UCHOA DE ARAUJO - OK - https://github.com/laraujo434046/Prova_1-E (2,5 + 2,5 + 2,5 + 2,5 = 10)
 LUCAS GADELHA FONSECA - OK - https://github.com/Lucas-Gadelha/PIW-2023.1.git (2,5 + 2,5 + 2,5 + 2,5 = 10)
 LUIS EDUARDO ALMEIDA SARAIVA - OK - https://github.com/Edusav/piw/tree/f980b87db9cdae85adbc246da51b426d28b4b942 (0 + 2,5 + 2,5 + 2,5 = 7,5)
